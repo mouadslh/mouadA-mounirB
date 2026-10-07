@@ -71,5 +71,5 @@ sentiment-app/
 
 | Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 |
 | --- | --- | --- | --- |
-| Membre A | [Nom 1] | [@login] | |
-| Membre B | [Nom 2] | [@login] | |
+| Membre A | mouad salah | @mouadslh | Création du dépôt, fiches de cadrage, requirements.lock |
+| Membre B | med mounir elhamss | @mounir-med | Clone du dépôt, installation de l'environnement, relecture des fiches, vérification du clone frais |
