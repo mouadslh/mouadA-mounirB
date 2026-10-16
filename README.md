@@ -69,7 +69,8 @@ sentiment-app/
 
 ## Membres du binôme
 
-| Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 |
-| --- | --- | --- | --- |
-| Membre A | mouad salah | @mouadslh | Création du dépôt, fiches de cadrage, requirements.lock |
-| Membre B | med mounir elhamss | @mounir-med | Clone du dépôt, installation de l'environnement, relecture des fiches, vérification du clone frais |
+| Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 | Travail de la semaine 2 |
+| --- | --- | --- | --- | --- |
+| Membre A | mouad salah | @mouadslh | Création du dépôt, fiches de cadrage, requirements.lock | Pipeline d'évaluation et prédiction (`predict.py`, `evaluate.py`), tests du modèle (`test_model.py`), CI et métriques |
+| Membre B | med mounir elhamss | @mounir-med | Clone du dépôt, installation de l'environnement, relecture des fiches, vérification du clone frais | Pipeline d'entraînement (`train.py`, `make_demo.py`), matrice de confusion (`plot_confusion.py`), analyse des erreurs (`docs/semaine2.md`) |
+
