@@ -198,11 +198,13 @@ Si nous devions refaire le projet :
 
 ## 8. Répartition du travail
 
-**À COMPLÉTER par nous** :
-
-- [Qui a fait quoi : code, tests, documentation, rédaction]
-- [Répartition des tâches entre les deux membres]
-- [Commits et contributions de chacun]
+| TP | Mouad Salah | Med Mounir Elhamss |
+| --- | --- | --- |
+| TP1 | Environnement Python 3.11, diagnostic de build et CI GitHub Actions. | Création du dépôt GitHub, cadrage multicritère et documentation initiale. |
+| TP2 | Pipeline scikit-learn, entraînement Allociné et analyse des erreurs. | Cadrage métier et validation des métriques et du seuil F1 macro. |
+| TP3 | Architecture FastAPI, schémas Pydantic et tests d'API. | Vérification des endpoints, tests Swagger et démarrage fail-fast. |
+| TP4 | Tests limites et Hypothesis, analyse du seuil, abstention à 0,60 et rapport TP4. | Jeu d'or et cas difficiles, intégration et erreurs 500, ruff, mypy et pre-commit. |
+| TP5 | Kit TP5, CI Streamlit et recette T29 à T31. | Recette T32-T33, ingestion/export CSV, réponses TP5 et mise à jour du journal et du rapport. |
 
 ---
 

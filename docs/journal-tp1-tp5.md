@@ -1050,11 +1050,11 @@ Une ligne par blocage : le message exact, ce qui le provoquait, ce qui l'a régl
 
 | TP | Ce qu'a fait le membre A | Ce qu'a fait le membre B |
 | --- | --- | --- |
-| TP1 | | |
-| TP2 | | |
-| TP3 | | |
-| TP4 | | |
-| TP5 | | |
+| TP1 | Mouad : configuration de l'environnement Python 3.11, diagnostic de build et CI GitHub Actions. | Mounir : création du dépôt GitHub, cadrage multicritère des cas d'usage et structuration initiale de la documentation. |
+| TP2 | Mouad : pipeline scikit-learn, entraînement sur le corpus Allociné et analyse qualitative des erreurs d'inférence. | Mounir : cadrage métier, validation des métriques de classification et du seuil F1 macro. |
+| TP3 | Mouad : architecture FastAPI, schémas Pydantic et tests d'API (`test_api.py`). | Mounir : validation de `/health` et `/predict`, tests manuels Swagger et vérification du démarrage fail-fast. |
+| TP4 | Mouad : tests limites et propriétés Hypothesis (`test_limites.py`), courbe de seuil, abstention à 0,60 et rédaction des rapports TP4. | Mounir : rédaction/annotation du jeu d'or, cas difficiles et erreurs connues, tests d'intégration et pannes 500, configuration de ruff, mypy et pre-commit. |
+| TP5 | Mouad : installation du kit TP5, configuration de Streamlit dans la CI et recette des contrôles T29 à T31. | Mounir : recette des contrôles T32 et T33, ingestion par lot et export CSV, réponses dans `docs/semaine5.md`, mise à jour du journal T0-T34 et rapport TP5. |
 
 ## Le bilan
 
