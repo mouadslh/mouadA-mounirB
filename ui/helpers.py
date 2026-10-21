@@ -4,6 +4,7 @@ Aucun import de streamlit dans ce fichier.
 """
 import sys
 from pathlib import Path
+
 import pandas as pd
 
 # Constantes
@@ -30,7 +31,6 @@ def charger_predicteur():
     
     # Import tardif de predict
     sys.path.insert(0, str(RACINE / "src"))
-    from predict import predict
     
     # Retourner le module pour accès à la fonction
     import predict as predict_module

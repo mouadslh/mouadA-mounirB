@@ -1,6 +1,7 @@
 """Script temporaire pour tester le modèle"""
-import joblib
 from pathlib import Path
+
+import joblib
 
 MODELE = Path("models/sentiment.joblib")
 
@@ -25,6 +26,6 @@ if MODELE.exists():
         probas = pipeline.predict_proba([phrase])[0]
         print(f"\nPhrase: {phrase}")
         print(f"Label prédit: {label}")
-        print(f"Probabilités: {dict(zip(pipeline.classes_, probas))}")
+        print(f"Probabilités: {dict(zip(pipeline.classes_, probas, strict=True))}")
 else:
     print(f"Modèle non trouvé: {MODELE}")

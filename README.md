@@ -59,7 +59,7 @@ sentiment-app/
 ├── .vscode/              # interpréteur et tests préconfigurés
 ├── data/                 # jeux de données (DVC à partir de la semaine 7)
 ├── models/               # modèles entraînés (jamais dans Git)
-├── app/                  # API FastAPI (semaine 3)
+├── api/                  # API FastAPI (semaine 3)
 ├── ui/                   # interface Streamlit (semaine 5)
 ├── tests/                # pytest : 23 + 12 + 3 = 38 tests en semaine 1
 ├── scripts/              # setup, diagnostic, création de fiche, init du dépôt, clone de vérification
@@ -69,23 +69,7 @@ sentiment-app/
 
 ## Membres du binôme
 
-| Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 | Travail de la semaine 2 |
-| --- | --- | --- | --- | --- |
-| Membre A | mouad salah | @mouadslh | Création du dépôt, fiches de cadrage, requirements.lock | • Module de prédiction (`src/predict.py`) et tests (`tests/test_model.py`)<br>• Résolution des conflits de fusion Git et réconciliation des branches<br>• Configuration de la CI (`.github/workflows/ci.yml`)<br>• Suivi et versionnement des métriques (`models/metrics.json`) |
-| Membre B | med mounir elhamss | @mounir-med | Clone du dépôt, installation de l'environnement, relecture des fiches, vérification du clone frais | • Pipeline d'entraînement TF-IDF + LogisticRegression (`src/train.py`)<br>• Données synthétiques et démo autonome (`src/make_demo.py`)<br>• Évaluation et matrice de confusion (`src/plot_confusion.py`)<br>• Rédaction de l'analyse des erreurs (`docs/semaine2.md`) |
-
-### Traçabilité du travail - Semaine 2
-
-* **Mouad Salah (Membre A)** :
-  * Intégration et validation du module d'inférence/prédiction (`src/predict.py`) avec gestion des seuils de confiance.
-  * Rédaction et validation des tests unitaires (`tests/test_model.py`).
-  * Réconciliation Git des historiques sans relation, résolution des conflits et merge.
-  * Maintien du workflow CI GitHub Actions (`.github/workflows/ci.yml`) et configuration des exclusions `.gitignore` pour `models/metrics.json`.
-
-* **Med Mounir Elhamss (Membre B)** :
-  * Implémentation du pipeline d'entraînement scikit-learn (`src/train.py`) sur le corpus Allociné et fallback local.
-  * Développement du script de génération de données de démonstration (`src/make_demo.py`).
-  * Calcul des scores ($F_1$, Rappel négatif, Accuracy) et tracé de la matrice de confusion (`src/plot_confusion.py`).
-  * Rédaction de l'analyse des erreurs de classification sur avis mitigés (`docs/semaine2.md`).
-
-
+| Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 |
+| --- | --- | --- | --- |
+| Membre A | mouad salah | @mouadslh| Création du dépôt, fiches de cadrage, requirements.lock |
+| Membre B |med mounir elhamss | @mounir-med | Clone du dépôt, installation de l'environnement, relecture des fiches, vérification du clone frais |

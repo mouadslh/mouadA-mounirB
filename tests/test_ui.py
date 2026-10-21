@@ -2,10 +2,11 @@
 Tests des fonctions utilitaires de l'interface (sans lancer Streamlit).
 3 tests avec un faux prédicteur.
 """
+import sys
+from pathlib import Path
+
 import pandas as pd
 import pytest
-from pathlib import Path
-import sys
 
 # Ajouter ui au path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "ui"))

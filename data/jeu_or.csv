@@ -1,0 +1,22 @@
+text,attendu,difficulte,erreur_connue
+"Commande reçue en deux jours, emballage soigné",POSITIVE,,
+"Pas déçu du tout, je recommande",POSITIVE,négation,
+"Arrivé cassé, bravo le transporteur",NEGATIVE,ironie,
+Le produit fonctionne comme prévu,POSITIVE,,
+Service client réactif et courtois,POSITIVE,,Le score de cette phrase courte est inversé par le modèle entraîné sur des avis de démonstration plus variés.
+Je ne recommande pas cette boutique,NEGATIVE,négation,Le modèle ne repère pas correctement la portée de la négation dans cette phrase.
+"Livraison en retard, mais produit impeccable",POSITIVE,avis mitigé,
+Emballage abîmé et article inutilisable,NEGATIVE,,
+Franchement génial : encore une panne dès le premier jour,NEGATIVE,ironie,Le modèle ne comprend pas le retournement ironique entre « génial » et la panne.
+Rapport qualité-prix correct,POSITIVE,,
+"Je m'attendais à mieux, déçu par la finition",NEGATIVE,,Le vocabulaire positif appris sur « mieux » masque les termes négatifs de la fin.
+Aucun problème depuis trois mois,POSITIVE,négation,La négation de problème n’est pas correctement captée par le modèle de démonstration.
+"Le colis est arrivé vide, expérience catastrophique",NEGATIVE,,
+"Le produit est moyen, sans défaut ni qualité remarquable",NEGATIVE,avis mitigé,Le jugement mitigé et la négation induisent un faux positif sur le modèle de démonstration.
+Très facile à installer et conforme à la description,POSITIVE,,
+"Service aimable, remboursement jamais effectué",NEGATIVE,avis mitigé,
+"Batterie tient toute la journée, très satisfait",POSITIVE,,
+La fermeture a cassé après une seule utilisation,NEGATIVE,,
+"Pas parfait, mais largement suffisant pour le prix",POSITIVE,avis mitigé,
+"Bravo, une semaine d'attente pour recevoir le mauvais article",NEGATIVE,ironie,
+"Commande pour un cadeau, la personne en est ravie",POSITIVE,domaine différent,

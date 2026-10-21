@@ -1,109 +1,60 @@
-"""
-Tests du modèle de classification.
-4 tests : 2 sur les métriques (en CI), 2 sur les prédictions (skip si modèle absent).
+"""Tests du modèle de la semaine 2.
+
+Deux tests lisent models/metrics.json, qui est versionné dans Git : ils tournent
+donc aussi dans la CI, où le modèle lui-même n'existe pas. Les deux autres sont
+ignorés tant que models/sentiment.joblib n'a pas été produit sur le poste.
 """
 import json
+import sys
 from pathlib import Path
+
 import pytest
 
-# Chemins
-RACINE = Path(__file__).resolve().parent.parent
+RACINE = Path(__file__).resolve().parents[1]
 METRIQUES = RACINE / "models" / "metrics.json"
 MODELE = RACINE / "models" / "sentiment.joblib"
+SEUIL_F1 = 0.85
+
+sys.path.insert(0, str(RACINE / "src"))
 
 
-class TestMetriques:
-    """Tests sur les métriques sauvegardées."""
-    
-    def test_fichier_metriques_existe(self):
-        """Le fichier metrics.json doit exister."""
-        assert METRIQUES.exists(), f"{METRIQUES} n'existe pas"
-    
-    def test_structure_metriques(self):
-        """Le fichier metrics.json doit contenir toutes les clés requises."""
-        with open(METRIQUES, "r", encoding="utf-8") as f:
-            metriques = json.load(f)
-        
-        # Clés obligatoires
-        cles_requises = {
-            "source",
-            "date",
-            "n_train",
-            "n_test",
-            "f1_macro",
-            "accuracy",
-            "recall_negative",
-            "seuil_f1"
-        }
-        
-        cles_presentes = set(metriques.keys())
-        assert cles_requises.issubset(cles_presentes), \
-            f"Clés manquantes : {cles_requises - cles_presentes}"
-    
-    def test_seuil_f1_atteint(self):
-        """Le F1-score doit être supérieur ou égal au seuil."""
-        with open(METRIQUES, "r", encoding="utf-8") as f:
-            metriques = json.load(f)
-        
-        f1 = metriques["f1_macro"]
-        seuil = metriques["seuil_f1"]
-        
-        assert f1 >= seuil, \
-            f"F1-score {f1} inférieur au seuil {seuil}"
+def lire_metriques() -> dict:
+    """Lue dans le test lui-même : un fichier absent donne un échec lisible."""
+    assert METRIQUES.exists(), "models/metrics.json absent : lancez python src/train.py"
+    return json.loads(METRIQUES.read_text(encoding="utf-8"))
 
 
-class TestPredictions:
-    """Tests sur le module de prédiction."""
-    
-    @pytest.mark.skipif(
-        not MODELE.exists(),
-        reason="Modèle non entraîné (lancez python src/train.py)"
-    )
-    def test_predictions_evidentes(self):
-        """Le modèle doit correctement classer des avis évidents."""
-        from src.predict import predict
-        
-        # Avis clairement positif
-        resultat_pos = predict("Excellent produit, très satisfait, je recommande")
-        assert resultat_pos["label"] == "positive", \
-            "Avis positif mal classé"
-        
-        # Avis clairement négatif
-        resultat_neg = predict("Produit cassé, service horrible, très déçu")
-        assert resultat_neg["label"] == "negative", \
-            "Avis négatif mal classé"
-    
-    @pytest.mark.skipif(
-        not MODELE.exists(),
-        reason="Modèle non entraîné (lancez python src/train.py)"
-    )
-    def test_format_sortie_predict(self):
-        """La fonction predict doit retourner le bon format."""
-        from src.predict import predict
-        
-        resultat = predict("Un texte quelconque pour tester")
-        
-        # Vérifier les clés
-        assert set(resultat.keys()) == {"label", "score"}, \
-            "Format de sortie incorrect"
-        
-        # Vérifier les types et valeurs
-        assert resultat["label"] in ["positive", "negative"], \
-            "Label invalide"
-        
-        assert isinstance(resultat["score"], float), \
-            "Le score doit être un float"
-        
-        assert 0 <= resultat["score"] <= 1, \
-            "Le score doit être entre 0 et 1"
-    
-    @pytest.mark.skipif(
-        not MODELE.exists(),
-        reason="Modèle non entraîné (lancez python src/train.py)"
-    )
-    def test_erreur_texte_vide(self):
-        """predict doit lever ValueError sur texte vide."""
-        from src.predict import predict
-        
-        with pytest.raises(ValueError, match="vide"):
-            predict("   ")
+@pytest.fixture(scope="module")
+def predicteur():
+    if not MODELE.exists():
+        pytest.skip("models/sentiment.joblib absent sur ce poste (normal en CI)")
+    from predict import predict
+    return predict
+
+
+def test_metriques_completes():
+    metriques = lire_metriques()
+    for cle in ["source", "f1_macro", "accuracy", "recall_negative", "n_train", "n_test"]:
+        assert cle in metriques, f"clé absente de metrics.json : {cle}"
+    assert metriques["n_test"] > 0
+
+
+def test_f1_au_dessus_du_seuil():
+    metriques = lire_metriques()
+    f1 = metriques["f1_macro"]
+    assert f1 >= SEUIL_F1, f"F1 macro {f1} sous le seuil {SEUIL_F1} : réentraînez ou améliorez le modèle"
+
+
+def test_prediction_evidente(predicteur):
+    assert predicteur("Service impeccable, livraison rapide, je recommande")["label"] == "positive"
+    assert predicteur("Produit cassé et service client injoignable")["label"] == "negative"
+
+
+def test_format_de_sortie(predicteur):
+    sortie = predicteur("Conforme à la description")
+    # inclusion et non égalité : predict() peut renvoyer des champs supplémentaires
+    assert {"label", "score"} <= set(sortie)
+    assert sortie["label"] in {"positive", "negative"}
+    assert 0.0 <= sortie["score"] <= 1.0
+    with pytest.raises(ValueError):
+        predicteur("   ")

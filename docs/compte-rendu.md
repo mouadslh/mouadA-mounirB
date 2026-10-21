@@ -154,13 +154,13 @@ L'interface Streamlit (`ui/app.py`) propose trois onglets :
 
 Nous avons retenu un **seuil de 0,60** : les avis avec un score < 60% sont marqués **"à vérifier"** et nécessitent une validation humaine.
 
-Tests sur `data/demo_reviews.csv` :
+Mesure sur le jeu de démonstration généré dans ce dépôt (120 avis de test) :
 
 | Seuil | Avis à vérifier | % du total |
 |-------|-----------------|------------|
-| 0,50  | ~15             | ~5%        |
-| **0,60**  | **~35**             | **~12%**       |
-| 0,75  | ~80             | ~28%       |
+| 0,50  | 0               | 0%         |
+| **0,60**  | **16**             | **13%**       |
+| 0,75  | 60              | 50%        |
 
 Le seuil de 0,60 offre le meilleur compromis :
 - **12% des avis** partent vers un agent (charge raisonnable)
@@ -188,7 +188,7 @@ Si nous devions refaire le projet :
 
 2. **Enrichir le dataset de démo** : Ajouter plus d'avis mitigés avec des patterns variés (ironie, sarcasme, double négation) pour mieux tester les limites du modèle.
 
-3. **Ajouter une API REST** : Exposer le modèle via FastAPI pour permettre une intégration dans d'autres systèmes (CRM, plateforme e-commerce).
+3. **Étendre l'API REST** : Ajouter l'authentification, le suivi des appels et des limites de débit avant une mise en service publique.
 
 4. **Mettre en place un monitoring** : Logger les prédictions et leurs scores pour détecter une dérive du modèle en production.
 

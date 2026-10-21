@@ -4,10 +4,11 @@ Produit une image docs/images/matrice-confusion.png.
 """
 import sys
 from pathlib import Path
+
 import joblib
 import matplotlib.pyplot as plt
+from sklearn.metrics import ConfusionMatrixDisplay, confusion_matrix
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 
 # Ajouter le dossier src au path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
