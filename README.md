@@ -69,7 +69,7 @@ sentiment-app/
 
 ## Membres du binôme
 
-| Rôle | Nom | Identifiant GitHub | Travail de la semaine 1 |
+| Rôle | Nom | Identifiant GitHub | Répartition des tâches (TP1 à TP5) |
 | --- | --- | --- | --- |
-| Membre A | mouad salah | @mouadslh| Création du dépôt, fiches de cadrage, requirements.lock |
-| Membre B |med mounir elhamss | @mounir-med | Clone du dépôt, installation de l'environnement, relecture des fiches, vérification du clone frais |
+| Membre A | Mouad Salah | [@mouadslh](https://github.com/mouadslh) | **TP1 :** environnement Python 3.11, diagnostic de build et CI GitHub Actions. **TP2 :** pipeline scikit-learn, entraînement Allociné et analyse des erreurs. **TP3 :** architecture FastAPI, schémas Pydantic et tests d'API. **TP4 :** tests limites et Hypothesis, courbe de seuil, abstention à 0,60 et rapport TP4. **TP5 :** kit TP5, CI Streamlit et recette des contrôles T29 à T31. |
+| Membre B | Med Mounir Elhamss | [@mounir-med](https://github.com/mounir-med) | **TP1 :** création du dépôt GitHub, cadrage multicritère et documentation initiale. **TP2 :** cadrage métier et validation des métriques et du seuil F1 macro. **TP3 :** vérification des endpoints, tests Swagger et démarrage fail-fast. **TP4 :** jeu d'or et cas difficiles, tests d'intégration et erreurs 500, configuration de ruff, mypy et pre-commit. **TP5 :** recette T32-T33, ingestion et export CSV, réponses TP5, mise à jour du journal et du rapport. |
