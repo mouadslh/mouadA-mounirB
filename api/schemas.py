@@ -11,6 +11,14 @@ class PredictRequest(BaseModel):
     text: str = Field(..., min_length=1, max_length=2000, description="Texte à classifier",
                       examples=["Livraison rapide, produit conforme, très satisfait"])
 
+    @field_validator("text", mode="before")
+    @classmethod
+    def normaliser_unicode_non_scalar(cls, value: object) -> object:
+        """Remplace les surrogates isolés, qui ne peuvent pas être encodés en UTF-8."""
+        if isinstance(value, str):
+            return value.encode("utf-8", errors="replace").decode("utf-8")
+        return value
+
     @field_validator("text")
     @classmethod
     def texte_non_blanc(cls, value: str) -> str:

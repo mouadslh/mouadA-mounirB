@@ -73,3 +73,9 @@ def test_tout_texte_blanc_est_refuse(client, texte):
     reponse = client.post("/predict", json={"text": texte})
     assert reponse.status_code == 422
     assert isinstance(reponse.json()["detail"], list)
+
+
+def test_surrogate_isole_est_normalise_avant_prediction(client):
+    reponse = client.post("/predict", json={"text": "\ud800"})
+    assert reponse.status_code == 200
+    assert reponse.json()["text"] == "?"
