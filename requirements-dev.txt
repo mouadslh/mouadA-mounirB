@@ -5,6 +5,7 @@ hypothesis==6.168.3
 ruff==0.16.9
 mypy==2.3.1
 pre-commit==4.6.2
+build==1.2.2.post1
 # Compatibilité avec les dépendances du dépôt (Streamlit/MLflow exigent packaging<25,
 # DVC exige platformdirs<4 ; virtualenv 21 nécessite des versions incompatibles).
 packaging<25

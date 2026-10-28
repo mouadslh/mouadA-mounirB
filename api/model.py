@@ -1,12 +1,8 @@
-"""Raccord entre l'API et le modèle entraîné au TP2.
-
-L'API n'entraîne rien et ne connaît pas scikit-learn : elle appelle la fonction
-predict() de src/predict.py, qui charge models/sentiment.joblib une seule fois.
-"""
+"""Raccord entre l'API et le modèle fourni par le paquet installable."""
 from typing import Literal, TypedDict
 
-from src.predict import charger_modele
-from src.predict import predict as _predict
+from sentiment_app.predict import charger_modele
+from sentiment_app.predict import predict as _predict
 
 Label = Literal["POSITIVE", "NEGATIVE", "INDETERMINE"]
 

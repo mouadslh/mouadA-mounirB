@@ -1,52 +1,19 @@
-#!/usr/bin/env python
-"""Prédiction unitaire : la fonction que l'API de la semaine 3 appellera.
+"""Compatibilité avec les imports du TP2 et la commande historique.
 
-Usage :
-  python src/predict.py "Livraison rapide, très satisfait"
-  >>> from predict import predict ; predict("texte")
+Le module est aliasé vers ``sentiment_app.predict`` afin que son cache et ses
+variables (notamment MODELE dans les anciens tests) restent partagés.
 """
+import importlib
 import sys
-from functools import lru_cache
 from pathlib import Path
-from typing import Literal, TypedDict
 
-import joblib
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
-MODELE = Path(__file__).resolve().parents[1] / "models" / "sentiment.joblib"
-Label = Literal["positive", "negative"]
-
-
-class Prediction(TypedDict):
-    label: Label
-    score: float
-
-
-@lru_cache(maxsize=1)
-def charger_modele():
-    """Chargé une seule fois par processus, pas à chaque appel."""
-    if not MODELE.exists():
-        raise FileNotFoundError("models/sentiment.joblib absent : lancez python src/train.py")
-    return joblib.load(MODELE)
-
-
-def predict(texte: str) -> Prediction:
-    """Renvoie {'label': 'positive'|'negative', 'score': float}."""
-    if not isinstance(texte, str) or not texte.strip():
-        raise ValueError("texte vide")
-    pipeline = charger_modele()
-    etiquette: Label = pipeline.predict([texte])[0]
-    score = float(pipeline.predict_proba([texte]).max())
-    return {"label": etiquette, "score": round(score, 4)}
-
-
-def main() -> int:
-    if len(sys.argv) < 2:
-        print(__doc__)
-        return 2
-    resultat = predict(" ".join(sys.argv[1:]))
-    print(f"{resultat['label']} (confiance {resultat['score']:.0%})")
-    return 0
-
+_module = importlib.import_module("sentiment_app.predict")
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    raise SystemExit(_module.main())
+
+sys.modules[__name__] = _module

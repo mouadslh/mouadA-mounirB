@@ -1,7 +1,7 @@
 # sentiment-app : dépôt du binôme
 
 Application fil rouge du cours *Développement et déploiement d'applications intelligentes*.
-Ce dépôt grandit chaque semaine ; la semaine 1 met en place le cadrage et l'environnement. Rien n'est jeté.
+Le dépôt couvre les TP1 à TP6 : cadrage, modèle, API, qualité, interface et paquet Python installable.
 
 ## Démarrage rapide
 
@@ -10,6 +10,20 @@ python -m venv .venv
 source .venv/bin/activate        # Windows PowerShell : .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 ```
+
+Pour installer le paquet et sa commande pendant le développement :
+
+```bash
+pip install -e ".[ui]"
+sentiment --version
+sentiment predict "Livraison rapide, produit conforme, très satisfait"
+sentiment serve       # API FastAPI
+sentiment ui          # interface Streamlit
+```
+
+Le modèle se régénère avec `python src/train.py`. Pour une installation de la roue,
+indiquez son chemin avec `SENTIMENT_MODELE` si le fichier n'est pas à l'emplacement
+`models/sentiment.joblib` de l'installation.
 
 Puis vérifiez :
 
@@ -52,7 +66,8 @@ make help           # la liste complète
 
 ```text
 sentiment-app/
-├── README.md, MARCHE-A-SUIVRE.md, TP1-ENONCE.md, TESTS.md, AIDE-GIT.md, DEPANNAGE.md
+├── README.md, MARCHE-A-SUIVRE*.md, TP1-ENONCE.md ... TP5-ENONCE.md
+├── CHANGELOG.md         # versions 0.1.0 à 0.6.0
 ├── Makefile              # raccourcis (optionnel)
 ├── requirements.txt      # dépendances du semestre, versions figées
 ├── .gitignore, .env.example, .editorconfig, pytest.ini
@@ -61,6 +76,7 @@ sentiment-app/
 ├── models/               # modèles entraînés (jamais dans Git)
 ├── api/                  # API FastAPI (semaine 3)
 ├── ui/                   # interface Streamlit (semaine 5)
+├── sentiment_app/        # paquet installable et commande sentiment (TP6)
 ├── tests/                # pytest : 23 + 12 + 3 = 38 tests en semaine 1
 ├── scripts/              # setup, diagnostic, création de fiche, init du dépôt, clone de vérification
 ├── notebooks/            # variante Colab du TP1
@@ -69,7 +85,7 @@ sentiment-app/
 
 ## Membres du binôme
 
-| Rôle | Nom | Identifiant GitHub | Répartition des tâches (TP1 à TP5) |
+| Rôle | Nom | Identifiant GitHub | Répartition des tâches (TP1 à TP6) |
 | --- | --- | --- | --- |
-| Membre A | Mouad Salah | [@mouadslh](https://github.com/mouadslh) | **TP1 :** environnement Python 3.11, diagnostic de build et CI GitHub Actions. **TP2 :** pipeline scikit-learn, entraînement Allociné et analyse des erreurs. **TP3 :** architecture FastAPI, schémas Pydantic et tests d'API. **TP4 :** tests limites et Hypothesis, courbe de seuil, abstention à 0,60 et rapport TP4. **TP5 :** kit TP5, CI Streamlit et recette des contrôles T29 à T31. |
-| Membre B | Med Mounir Elhamss | [@mounir-med](https://github.com/mounir-med) | **TP1 :** création du dépôt GitHub, cadrage multicritère et documentation initiale. **TP2 :** cadrage métier et validation des métriques et du seuil F1 macro. **TP3 :** vérification des endpoints, tests Swagger et démarrage fail-fast. **TP4 :** jeu d'or et cas difficiles, tests d'intégration et erreurs 500, configuration de ruff, mypy et pre-commit. **TP5 :** recette T32-T33, ingestion et export CSV, réponses TP5, mise à jour du journal et du rapport. |
+| Membre A | Mouad Salah | [@mouadslh](https://github.com/mouadslh) | **TP1 :** environnement Python 3.11, diagnostic de build et CI GitHub Actions. **TP2 :** pipeline scikit-learn, entraînement Allociné et analyse des erreurs. **TP3 :** architecture FastAPI, schémas Pydantic et tests d'API. **TP4 :** tests limites et Hypothesis, courbe de seuil, abstention à 0,60 et rapport TP4. **TP5 :** kit TP5, CI Streamlit et recette des contrôles T29 à T31. **TP6 :** déplacement du prédicteur dans le paquet, raccord de l'API et compatibilité. |
+| Membre B | Med Mounir Elhamss | [@mounir-med](https://github.com/mounir-med) | **TP1 :** création du dépôt GitHub, cadrage multicritère et documentation initiale. **TP2 :** cadrage métier et validation des métriques et du seuil F1 macro. **TP3 :** vérification des endpoints, tests Swagger et démarrage fail-fast. **TP4 :** jeu d'or et cas difficiles, tests d'intégration et erreurs 500, configuration de ruff, mypy et pre-commit. **TP5 :** recette T32-T33, ingestion et export CSV, réponses TP5, mise à jour du journal et du rapport. **TP6 :** commande, roue, compte rendu et étiquette de version. |
