@@ -23,11 +23,11 @@ La fermeture a cassé après une seule utilisation,NEGATIVE,,
 Le vendeur a pris le temps de répondre à toutes mes questions.,POSITIVE,service client,
 Le colis est arrivé en retard et le suivi n'a jamais été mis à jour.,NEGATIVE,avis composé,
 "Installation rapide, instructions simples et résultat impeccable.",POSITIVE,,
-Le casque grésille dès que je bouge le câble.,NEGATIVE,,
+Le casque grésille dès que je bouge le câble.,NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je pensais recevoir mieux, mais finalement le produit fait très bien son travail.",POSITIVE,avis mitigé,
 Super qualité… si l'objectif était de tomber en panne au bout de deux jours.,NEGATIVE,ironie,
-"Aucun retard, aucun défaut : tout s'est déroulé parfaitement.",POSITIVE,négation,
-Je ne suis pas satisfait : la taille ne correspond pas et le tissu gratte.,NEGATIVE,négation,
+"Aucun retard, aucun défaut : tout s'est déroulé parfaitement.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Je ne suis pas satisfait : la taille ne correspond pas et le tissu gratte.,NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Le prix est raisonnable et les matériaux semblent solides.,POSITIVE,,
 Le remboursement promis la semaine dernière n'est toujours pas arrivé.,NEGATIVE,,
 "Le logiciel est intuitif, fluide et facile à prendre en main.",POSITIVE,domaine différent,
@@ -43,25 +43,25 @@ Le technicien est arrivé à l'heure et a résolu le problème dès sa première
 "Un service client impeccable et agréable, merci beaucoup.",POSITIVE,avis mitigé,
 "Achat inutilisable, la fermeture a cassé. À éviter !",NEGATIVE,,
 "Excellente expérience avec la livraison, je recommande absolument !",POSITIVE,,
-"Je ne recommande pas ce appareil photo, le système bugue constamment.",NEGATIVE,négation,
+"Je ne recommande pas ce appareil photo, le système bugue constamment.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Un service client de grande qualité et rapide, merci beaucoup.",POSITIVE,,
 Inadmissible : les dimensions ne correspondent pas et le service client ne fait rien.,NEGATIVE,vocabulaire trompeur,
 Achat parfait ! Le support ventilé réponde en tout point à mes attentes.,POSITIVE,,
-"Qualité médiocre pour le prix, le chargeur fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le chargeur fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce appareil photo, sans problème surpris !",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le meuble est rayé.",NEGATIVE,négation,
 "Excellente expérience avec la commande, je recommande sans hésiter !",POSITIVE,négation,
-"Très déçu par l'interface, le vêtement est arrivé abîmé.",NEGATIVE,,
+"Très déçu par l'interface, le vêtement est arrivé abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec deux jours de plus, mais le aspirateur est remarquable.",POSITIVE,négation,
-"Problème dès trois semaines, le aspirateur s'arrête brutalement sans raison.",NEGATIVE,,
+"Problème dès trois semaines, le aspirateur s'arrête brutalement sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, support ventilé conforme aux attentes et conforme.",POSITIVE,avis positif très court,
 "Achat inutilisable, la batterie ne tient pas. À éviter !",NEGATIVE,négation,
 "Un service client très professionnel et robuste, merci beaucoup.",POSITIVE,,
-"Je ne recommande pas ce câble USB-C, la pièce principale est manquante.",NEGATIVE,négation,
+"Je ne recommande pas ce câble USB-C, la pièce principale est manquante.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, casque audio conforme aux attentes et de grande qualité.",POSITIVE,avis mitigé,
 Attente de trois semaines pour recevoir un montre connectée totalement rayé.,NEGATIVE,vocabulaire trompeur,
 "Écran de très bonne qualité, livraison fluide.",POSITIVE,,
-"Très déçu par l'emballage, le clavier est arrivé rayé.",NEGATIVE,,
+"Très déçu par l'emballage, le clavier est arrivé rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de robot de cuisine, c'est réactif.",POSITIVE,avis mitigé,
 "Service client catastrophique, aucune réponse malgré une semaine d'attente.",NEGATIVE,,
 "Rien à redire, chargeur conforme aux attentes et conforme.",POSITIVE,avis mitigé,
@@ -71,63 +71,63 @@ Attente de trois semaines pour recevoir un smartphone totalement défectueux.,NE
 "Le service après-vente a répondu en 5 minutes, très parfait.",POSITIVE,,
 "Livraison catastrophique, le clavier est cassé.",NEGATIVE,négation,
 "Écran de très bonne qualité, livraison robuste.",POSITIVE,,
-"Qualité médiocre pour le prix, le écouteurs fait un bruit anormal.",NEGATIVE,ironie,
+"Qualité médiocre pour le prix, le écouteurs fait un bruit anormal.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, livre conforme aux attentes et remarquable.",POSITIVE,avis mitigé,
 Je demande un remboursement car le sac à dos est tombé en panne au bout de 48 heures.,NEGATIVE,vocabulaire trompeur,
 "Interface fluide, aspirateur esthétique et très robuste.",POSITIVE,,
 "Emballage abîmé et casque audio incomplet, déception totale.",NEGATIVE,,
 "Interface fluide, câble USB-C esthétique et très robuste.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce aspirateur, le colis était vide.",NEGATIVE,négation,
+"Je ne recommande pas ce aspirateur, le colis était vide.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de le suivi de colis, le appareil photo fonctionne idéalement.",POSITIVE,,
 "Service client inutilisable, aucune réponse malgré deux mails restés sans réponse.",NEGATIVE,,
 "Le service après-vente a répondu en 5 minutes, très soigné.",POSITIVE,,
 Je demande un remboursement car le meuble est tombé en panne au bout de deux jours.,NEGATIVE,,
 "Montre connectée de très bonne qualité, livraison efficace.",POSITIVE,,
-"Qualité médiocre pour le prix, le câble USB-C fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le câble USB-C fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec le SAV, je recommande sans hésiter !",POSITIVE,avis mitigé,
 "Emballage abîmé et casque audio rayé, déception totale.",NEGATIVE,,
 "Livraison avec un petit délai, mais le ordinateur portable est impeccable.",POSITIVE,,
 "Service client défectueux, aucune réponse malgré trois relances.",NEGATIVE,,
 "Excellente expérience avec l'interface, je recommande les yeux fermés !",POSITIVE,,
-"Je ne recommande pas ce livre, le système bugue constamment.",NEGATIVE,négation,
+"Je ne recommande pas ce livre, le système bugue constamment.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, vêtement esthétique et très intuitif.",POSITIVE,avis positif très court,
-"Livraison catastrophique, le casque audio est abîmé.",NEGATIVE,ironie,
+"Livraison catastrophique, le casque audio est abîmé.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de le suivi de colis, le aspirateur fonctionne sans problème.",POSITIVE,avis mitigé,
-"Livraison catastrophique, le support ventilé est défectueux.",NEGATIVE,,
+"Livraison catastrophique, le support ventilé est défectueux.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, sac à dos conforme aux attentes et remarquable.",POSITIVE,négation,
 Inadmissible : la connectique est défaillante et le service client ne fait rien.,NEGATIVE,négation,
 "Aspirateur de très bonne qualité, livraison efficace.",POSITIVE,avis mitigé,
 "Service client défectueux, aucune réponse malgré plusieurs appels.",NEGATIVE,,
 "Excellente expérience avec la qualité globale, je recommande sans hésiter !",POSITIVE,,
-"Très déçu par l'interface, le écran est arrivé abîmé.",NEGATIVE,ironie,
+"Très déçu par l'interface, le écran est arrivé abîmé.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un petit délai, mais le robot de cuisine est impeccable.",POSITIVE,,
-"Je ne recommande pas ce casque audio, le système bugue constamment.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce casque audio, le système bugue constamment.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, logiciel esthétique et très agréable.",POSITIVE,,
 "Service client catastrophique, aucune réponse malgré deux mails restés sans réponse.",NEGATIVE,,
 "Interface fluide, clavier esthétique et très fluide.",POSITIVE,avis mitigé,
-"Qualité médiocre pour le prix, le smartphone fait un bruit anormal.",NEGATIVE,,
-"Un service client parfait et intuitif, merci beaucoup.",POSITIVE,négation,
+"Qualité médiocre pour le prix, le smartphone fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Un service client parfait et intuitif, merci beaucoup.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Attente de trois semaines pour recevoir un aspirateur totalement catastrophique.,NEGATIVE,,
-"Utilisation agréable au quotidien, installation réactif.",POSITIVE,,
+"Utilisation agréable au quotidien, installation réactif.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne recommande pas ce vêtement, la fermeture a cassé.",NEGATIVE,vocabulaire trompeur,
 "Excellente expérience avec l'interface, je recommande absolument !",POSITIVE,avis positif très court,
-"Qualité médiocre pour le prix, le logiciel fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le logiciel fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec la qualité globale, je recommande absolument !",POSITIVE,négation,
-"Problème dès quelques heures, le logiciel surchauffe vite sans raison.",NEGATIVE,ironie,
-"Utilisation silencieux au quotidien, installation réactif.",POSITIVE,,
+"Problème dès quelques heures, le logiciel surchauffe vite sans raison.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Utilisation silencieux au quotidien, installation réactif.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Attente de trois semaines pour recevoir un sac à dos totalement rayé.,NEGATIVE,,
-"Utilisation agréable au quotidien, installation remarquable.",POSITIVE,avis mitigé,
+"Utilisation agréable au quotidien, installation remarquable.",POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Article de mauvaise qualité, la notice est illisible après quelques heures.",NEGATIVE,ironie,
 "Le service après-vente a répondu en 5 minutes, très de grande qualité.",POSITIVE,avis positif très court,
 "Service client inutilisable, aucune réponse malgré trois relances.",NEGATIVE,,
 "Excellente expérience avec le service client, je recommande absolument !",POSITIVE,,
-"Très déçu par l'emballage, le ordinateur portable est arrivé incomplet.",NEGATIVE,vocabulaire trompeur,
-"Utilisation intuitif au quotidien, installation remarquable.",POSITIVE,négation,
+"Très déçu par l'emballage, le ordinateur portable est arrivé incomplet.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Utilisation intuitif au quotidien, installation remarquable.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Attente de trois semaines pour recevoir un vêtement totalement incomplet.,NEGATIVE,vocabulaire trompeur,
-"Un service client remarquable et robuste, merci beaucoup.",POSITIVE,,
-"Problème dès quelques heures, le ordinateur portable s'arrête brutalement sans raison.",NEGATIVE,vocabulaire trompeur,
+"Un service client remarquable et robuste, merci beaucoup.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Problème dès quelques heures, le ordinateur portable s'arrête brutalement sans raison.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'assistance technique, le chargeur fonctionne agréablement.",POSITIVE,négation,
-"Je ne recommande pas ce chargeur, le système bugue constamment.",NEGATIVE,,
+"Je ne recommande pas ce chargeur, le système bugue constamment.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de la livraison, le robot de cuisine fonctionne sans problème.",POSITIVE,négation,
 "Méfiez-vous des avis positifs, ce appareil photo est loin d'être à la hauteur.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de montre connectée, c'est très professionnel.",POSITIVE,,
@@ -139,17 +139,17 @@ Inadmissible : le colis était vide et le service client ne fait rien.,NEGATIVE,
 "Je ne regrette absolument pas cet achat de aspirateur, c'est conforme.",POSITIVE,,
 Inadmissible : la batterie ne tient pas et le service client ne fait rien.,NEGATIVE,,
 Commande reçue rapidement et appareil photo très professionnel.,POSITIVE,,
-"Très déçu par le SAV, le meuble est arrivé abîmé.",NEGATIVE,,
+"Très déçu par le SAV, le meuble est arrivé abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un léger retard, mais le ordinateur portable est soigné.",POSITIVE,,
-"Livraison catastrophique, le chargeur est défectueux.",NEGATIVE,,
+"Livraison catastrophique, le chargeur est défectueux.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Produit commandé lundi, reçu mercredi : le service client irréprochable !",POSITIVE,,
 "Emballage abîmé et meuble incomplet, déception totale.",NEGATIVE,négation,
 "Clavier de très bonne qualité, livraison agréable.",POSITIVE,avis mitigé,
-"Livraison catastrophique, le sac à dos est inutilisable.",NEGATIVE,négation,
+"Livraison catastrophique, le sac à dos est inutilisable.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Un service client de grande qualité et fluide, merci beaucoup.",POSITIVE,,
 "Problème dès 48 heures, le écouteurs plante régulièrement sans raison.",NEGATIVE,,
 "Interface fluide, écran esthétique et très intuitif.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce aspirateur, les dimensions ne correspondent pas.",NEGATIVE,,
+"Je ne recommande pas ce aspirateur, les dimensions ne correspondent pas.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Logiciel de très bonne qualité, livraison efficace.",POSITIVE,avis mitigé,
 Je demande un remboursement car le meuble est tombé en panne au bout de le premier lavage.,NEGATIVE,ironie,
 "Interface fluide, écran esthétique et très agréable.",POSITIVE,,
@@ -163,12 +163,12 @@ Je demande un remboursement car le meuble est tombé en panne au bout de le prem
 "Livraison avec un petit délai, mais le support ventilé est de grande qualité.",POSITIVE,avis positif très court,
 "Problème dès une seule utilisation, le vêtement plante régulièrement sans raison.",NEGATIVE,vocabulaire trompeur,
 "Un service client de grande qualité et robuste, merci beaucoup.",POSITIVE,,
-"Je ne recommande pas ce livre, la batterie ne tient pas.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce livre, la batterie ne tient pas.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, casque audio conforme aux attentes et soigné.",POSITIVE,avis positif très court,
 Attente de trois semaines pour recevoir un vêtement totalement catastrophique.,NEGATIVE,vocabulaire trompeur,
 "Sac à dos de très bonne qualité, livraison robuste.",POSITIVE,avis mitigé,
 Je demande un remboursement car le écouteurs est tombé en panne au bout de 48 heures.,NEGATIVE,,
-Commande reçue rapidement et montre connectée réactif.,POSITIVE,négation,
+Commande reçue rapidement et montre connectée réactif.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Méfiez-vous des avis positifs, ce livre est loin d'être à la hauteur.",NEGATIVE,,
 "Le service après-vente a répondu en 5 minutes, très très professionnel.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le clavier est rayé.",NEGATIVE,ironie,
@@ -179,13 +179,13 @@ Commande reçue rapidement et montre connectée réactif.,POSITIVE,négation,
 "Très satisfait de l'assistance technique, le meuble fonctionne très bien.",POSITIVE,,
 Attente de trois semaines pour recevoir un aspirateur totalement abîmé.,NEGATIVE,vocabulaire trompeur,
 "Rien à redire, robot de cuisine conforme aux attentes et remarquable.",POSITIVE,avis positif très court,
-"Je ne recommande pas ce robot de cuisine, la notice est illisible.",NEGATIVE,ironie,
+"Je ne recommande pas ce robot de cuisine, la notice est illisible.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un léger retard, mais le vêtement est conforme.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le chargeur est inutilisable.",NEGATIVE,vocabulaire trompeur,
 "Je ne regrette absolument pas cet achat de logiciel, c'est parfait.",POSITIVE,,
-"Je ne recommande pas ce câble USB-C, la notice est illisible.",NEGATIVE,négation,
+"Je ne recommande pas ce câble USB-C, la notice est illisible.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce livre est ergonomique et efficace.",POSITIVE,,
-"Livraison catastrophique, le clavier est abîmé.",NEGATIVE,négation,
+"Livraison catastrophique, le clavier est abîmé.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'assistance technique, le meuble fonctionne agréablement.",POSITIVE,négation,
 "Je ne recommande pas ce sac à dos, la fermeture a cassé.",NEGATIVE,,
 "Un service client de grande qualité et intuitif, merci beaucoup.",POSITIVE,avis positif très court,
@@ -201,15 +201,15 @@ Attente de trois semaines pour recevoir un casque audio totalement rayé.,NEGATI
 "Très bonne marque, ce chargeur est ergonomique et robuste.",POSITIVE,négation,
 "Méfiez-vous des avis positifs, ce montre connectée est loin d'être à la hauteur.",NEGATIVE,,
 Achat parfait ! Le chargeur réponde en tout point à mes attentes.,POSITIVE,,
-"Je ne recommande pas ce clavier, la notice est illisible.",NEGATIVE,,
+"Je ne recommande pas ce clavier, la notice est illisible.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec deux jours de plus, mais le meuble est réactif.",POSITIVE,avis positif très court,
 Inadmissible : la fermeture a cassé et le service client ne fait rien.,NEGATIVE,vocabulaire trompeur,
-Commande reçue rapidement et aspirateur remarquable.,POSITIVE,négation,
+Commande reçue rapidement et aspirateur remarquable.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Service client incomplet, aucune réponse malgré trois relances.",NEGATIVE,,
 "Produit commandé lundi, reçu mercredi : l'emballage irréprochable !",POSITIVE,avis positif très court,
 Attente de trois semaines pour recevoir un chargeur totalement rayé.,NEGATIVE,,
 "Livraison avec un léger retard, mais le aspirateur est soigné.",POSITIVE,avis mitigé,
-"Très déçu par la qualité globale, le vêtement est arrivé rayé.",NEGATIVE,,
+"Très déçu par la qualité globale, le vêtement est arrivé rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce support ventilé, superbement surpris !",POSITIVE,négation,
 "Article de mauvaise qualité, la pièce principale est manquante après le premier lavage.",NEGATIVE,,
 "Livraison avec deux jours de plus, mais le sac à dos est soigné.",POSITIVE,,
@@ -217,26 +217,26 @@ Attente de trois semaines pour recevoir un chargeur totalement rayé.,NEGATIVE,,
 "Livraison avec deux jours de plus, mais le vêtement est remarquable.",POSITIVE,avis mitigé,
 Attente de trois semaines pour recevoir un meuble totalement abîmé.,NEGATIVE,négation,
 "Interface fluide, chargeur esthétique et très fluide.",POSITIVE,négation,
-"Livraison catastrophique, le aspirateur est abîmé.",NEGATIVE,,
+"Livraison catastrophique, le aspirateur est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Produit commandé lundi, reçu mercredi : l'interface irréprochable !",POSITIVE,avis positif très court,
-"Très déçu par l'emballage, le écouteurs est arrivé incomplet.",NEGATIVE,,
+"Très déçu par l'emballage, le écouteurs est arrivé incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec le suivi de colis, je recommande sans hésiter !",POSITIVE,,
 "Problème dès deux jours, le casque audio surchauffe vite sans raison.",NEGATIVE,négation,
-Commande reçue rapidement et appareil photo soigné.,POSITIVE,,
-"Problème dès quelques heures, le vêtement s'arrête brutalement sans raison.",NEGATIVE,négation,
+Commande reçue rapidement et appareil photo soigné.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Problème dès quelques heures, le vêtement s'arrête brutalement sans raison.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'interface, le meuble fonctionne superbement.",POSITIVE,,
 "Problème dès quelques heures, le robot de cuisine surchauffe vite sans raison.",NEGATIVE,,
 "Excellente expérience avec le SAV, je recommande absolument !",POSITIVE,,
-"Je ne recommande pas ce clavier, les dimensions ne correspondent pas.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce clavier, les dimensions ne correspondent pas.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Utilisation robuste au quotidien, installation soigné.",POSITIVE,,
 "Méfiez-vous des avis positifs, ce logiciel est loin d'être à la hauteur.",NEGATIVE,,
 "Le service après-vente a répondu en 5 minutes, très remarquable.",POSITIVE,,
-"Je ne recommande pas ce support ventilé, le colis était vide.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce support ventilé, le colis était vide.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de la commande, le smartphone fonctionne superbement.",POSITIVE,,
-"Qualité médiocre pour le prix, le clavier fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le clavier fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Le service après-vente a répondu en 5 minutes, très réactif.",POSITIVE,avis mitigé,
 "Belle présentation sur le site, mais en réalité le montre connectée est rayé.",NEGATIVE,négation,
-Commande reçue rapidement et sac à dos réactif.,POSITIVE,négation,
+Commande reçue rapidement et sac à dos réactif.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Passez votre chemin, ce livre accumule les défauts de fabrication.",NEGATIVE,négation,
 "Excellente expérience avec la livraison, je recommande sans hésiter !",POSITIVE,,
 Je demande un remboursement car le meuble est tombé en panne au bout de 48 heures.,NEGATIVE,ironie,
@@ -252,22 +252,22 @@ Attente de trois semaines pour recevoir un robot de cuisine totalement cassé.,N
 "Service client catastrophique, aucune réponse malgré trois relances.",NEGATIVE,ironie,
 "Interface fluide, casque audio esthétique et très silencieux.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le écouteurs est incomplet.",NEGATIVE,,
-"Un service client parfait et robuste, merci beaucoup.",POSITIVE,négation,
-"Livraison catastrophique, le ordinateur portable est inutilisable.",NEGATIVE,vocabulaire trompeur,
+"Un service client parfait et robuste, merci beaucoup.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Livraison catastrophique, le ordinateur portable est inutilisable.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Utilisation fluide au quotidien, installation conforme.",POSITIVE,négation,
 "Problème dès le premier lavage, le aspirateur plante régulièrement sans raison.",NEGATIVE,négation,
 "Super rapport qualité-prix pour ce écran, idéalement surpris !",POSITIVE,,
 Je demande un remboursement car le livre est tombé en panne au bout de trois semaines.,NEGATIVE,ironie,
-Commande reçue rapidement et smartphone soigné.,POSITIVE,,
+Commande reçue rapidement et smartphone soigné.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Attente de trois semaines pour recevoir un montre connectée totalement cassé.,NEGATIVE,,
 "Rien à redire, vêtement conforme aux attentes et impeccable.",POSITIVE,avis positif très court,
-"Je ne recommande pas ce sac à dos, la batterie ne tient pas.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce sac à dos, la batterie ne tient pas.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce smartphone, sans problème surpris !",POSITIVE,négation,
-"Très déçu par l'interface, le montre connectée est arrivé défectueux.",NEGATIVE,,
+"Très déçu par l'interface, le montre connectée est arrivé défectueux.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de le service client, le meuble fonctionne sans problème.",POSITIVE,,
 "Emballage abîmé et meuble abîmé, déception totale.",NEGATIVE,,
 Commande reçue rapidement et meuble très professionnel.,POSITIVE,avis positif très court,
-"Très déçu par la qualité globale, le chargeur est arrivé rayé.",NEGATIVE,,
+"Très déçu par la qualité globale, le chargeur est arrivé rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, montre connectée conforme aux attentes et réactif.",POSITIVE,avis positif très court,
 "Achat inutilisable, la connectique est défaillante. À éviter !",NEGATIVE,vocabulaire trompeur,
 "Je ne regrette absolument pas cet achat de chargeur, c'est soigné.",POSITIVE,,
@@ -283,13 +283,13 @@ Achat parfait ! Le meuble réponde en tout point à mes attentes.,POSITIVE,,
 "Très bonne marque, ce ordinateur portable est ergonomique et robuste.",POSITIVE,,
 Inadmissible : le système bugue constamment et le service client ne fait rien.,NEGATIVE,,
 "Je ne regrette absolument pas cet achat de ordinateur portable, c'est remarquable.",POSITIVE,,
-"Je ne recommande pas ce casque audio, la pièce principale est manquante.",NEGATIVE,,
-Commande reçue rapidement et appareil photo de grande qualité.,POSITIVE,avis mitigé,
-"Je ne recommande pas ce robot de cuisine, la pièce principale est manquante.",NEGATIVE,ironie,
+"Je ne recommande pas ce casque audio, la pièce principale est manquante.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Commande reçue rapidement et appareil photo de grande qualité.,POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce robot de cuisine, la pièce principale est manquante.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de câble USB-C, c'est conforme.",POSITIVE,,
-"Problème dès une seule utilisation, le écouteurs ne s'allume plus sans raison.",NEGATIVE,,
+"Problème dès une seule utilisation, le écouteurs ne s'allume plus sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Écouteurs de très bonne qualité, livraison intuitif.",POSITIVE,,
-"Je ne recommande pas ce casque audio, la batterie ne tient pas.",NEGATIVE,négation,
+"Je ne recommande pas ce casque audio, la batterie ne tient pas.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, montre connectée esthétique et très intuitif.",POSITIVE,avis positif très court,
 "Emballage abîmé et support ventilé cassé, déception totale.",NEGATIVE,vocabulaire trompeur,
 "Livraison avec un léger retard, mais le clavier est remarquable.",POSITIVE,,
@@ -301,41 +301,41 @@ Commande reçue rapidement et appareil photo de grande qualité.,POSITIVE,avis m
 "Super rapport qualité-prix pour ce écran, très bien surpris !",POSITIVE,,
 Attente de trois semaines pour recevoir un meuble totalement rayé.,NEGATIVE,négation,
 "Un service client impeccable et rapide, merci beaucoup.",POSITIVE,,
-"Livraison catastrophique, le appareil photo est défectueux.",NEGATIVE,vocabulaire trompeur,
-Commande reçue rapidement et ordinateur portable réactif.,POSITIVE,,
-"Je ne recommande pas ce clavier, la connectique est défaillante.",NEGATIVE,négation,
+"Livraison catastrophique, le appareil photo est défectueux.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Commande reçue rapidement et ordinateur portable réactif.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce clavier, la connectique est défaillante.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec l'interface, je recommande sans hésiter !",POSITIVE,avis mitigé,
 "Passez votre chemin, ce meuble accumule les défauts de fabrication.",NEGATIVE,vocabulaire trompeur,
 "Vêtement de très bonne qualité, livraison robuste.",POSITIVE,,
 "Problème dès quelques heures, le câble USB-C grésille sans arrêt sans raison.",NEGATIVE,négation,
-"Utilisation fluide au quotidien, installation parfait.",POSITIVE,négation,
-"Je ne recommande pas ce casque audio, le colis était vide.",NEGATIVE,vocabulaire trompeur,
+"Utilisation fluide au quotidien, installation parfait.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce casque audio, le colis était vide.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Achat parfait ! Le écouteurs réponde en tout point à mes attentes.,POSITIVE,,
 Je demande un remboursement car le montre connectée est tombé en panne au bout de trois semaines.,NEGATIVE,vocabulaire trompeur,
 "Interface fluide, montre connectée esthétique et très rapide.",POSITIVE,,
 "Problème dès une seule utilisation, le casque audio plante régulièrement sans raison.",NEGATIVE,ironie,
-Commande reçue rapidement et clavier de grande qualité.,POSITIVE,négation,
+Commande reçue rapidement et clavier de grande qualité.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Article de mauvaise qualité, le colis était vide après 48 heures.",NEGATIVE,négation,
 "Produit commandé lundi, reçu mercredi : la livraison irréprochable !",POSITIVE,,
 Attente de trois semaines pour recevoir un ordinateur portable totalement catastrophique.,NEGATIVE,,
-Commande reçue rapidement et logiciel réactif.,POSITIVE,,
+Commande reçue rapidement et logiciel réactif.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Inadmissible : la notice est illisible et le service client ne fait rien.,NEGATIVE,ironie,
-"Utilisation silencieux au quotidien, installation parfait.",POSITIVE,,
+"Utilisation silencieux au quotidien, installation parfait.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Article de mauvaise qualité, le système bugue constamment après trois semaines.",NEGATIVE,négation,
 "Excellente expérience avec le suivi de colis, je recommande chaleureusement !",POSITIVE,avis positif très court,
 "Passez votre chemin, ce vêtement accumule les défauts de fabrication.",NEGATIVE,,
 "Très satisfait de le SAV, le câble USB-C fonctionne très bien.",POSITIVE,,
-"Je ne recommande pas ce appareil photo, la notice est illisible.",NEGATIVE,ironie,
+"Je ne recommande pas ce appareil photo, la notice est illisible.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Chargeur de très bonne qualité, livraison robuste.",POSITIVE,,
 Je demande un remboursement car le robot de cuisine est tombé en panne au bout de quelques heures.,NEGATIVE,,
 "Un service client impeccable et robuste, merci beaucoup.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le sac à dos est incomplet.",NEGATIVE,ironie,
 "Excellente expérience avec l'emballage, je recommande absolument !",POSITIVE,,
-"Très déçu par la livraison, le ordinateur portable est arrivé défectueux.",NEGATIVE,négation,
+"Très déçu par la livraison, le ordinateur portable est arrivé défectueux.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce ordinateur portable, agréablement surpris !",POSITIVE,avis positif très court,
 "Article de mauvaise qualité, les dimensions ne correspondent pas après quelques heures.",NEGATIVE,vocabulaire trompeur,
 "Produit commandé lundi, reçu mercredi : le suivi de colis irréprochable !",POSITIVE,,
-"Livraison catastrophique, le meuble est rayé.",NEGATIVE,négation,
+"Livraison catastrophique, le meuble est rayé.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec deux jours de plus, mais le casque audio est de grande qualité.",POSITIVE,,
 "Très déçu par le suivi de colis, le casque audio est arrivé abîmé.",NEGATIVE,,
 "Très bonne marque, ce robot de cuisine est ergonomique et agréable.",POSITIVE,,
@@ -347,17 +347,17 @@ Je demande un remboursement car le robot de cuisine est tombé en panne au bout 
 "Très bonne marque, ce support ventilé est ergonomique et efficace.",POSITIVE,,
 "Article de mauvaise qualité, la pièce principale est manquante après trois semaines.",NEGATIVE,,
 Commande reçue rapidement et vêtement très professionnel.,POSITIVE,,
-"Très déçu par l'interface, le support ventilé est arrivé défectueux.",NEGATIVE,vocabulaire trompeur,
+"Très déçu par l'interface, le support ventilé est arrivé défectueux.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Produit commandé lundi, reçu mercredi : la qualité globale irréprochable !",POSITIVE,,
 "Problème dès le premier lavage, le meuble ne s'allume plus sans raison.",NEGATIVE,ironie,
 "Câble usb-c de très bonne qualité, livraison simple.",POSITIVE,négation,
-"Je ne recommande pas ce aspirateur, la connectique est défaillante.",NEGATIVE,,
+"Je ne recommande pas ce aspirateur, la connectique est défaillante.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, clavier conforme aux attentes et remarquable.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce support ventilé, la connectique est défaillante.",NEGATIVE,ironie,
+"Je ne recommande pas ce support ventilé, la connectique est défaillante.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'interface, le casque audio fonctionne agréablement.",POSITIVE,,
 "Article de mauvaise qualité, la connectique est défaillante après le premier lavage.",NEGATIVE,,
-"Un service client parfait et silencieux, merci beaucoup.",POSITIVE,négation,
-"Livraison catastrophique, le logiciel est catastrophique.",NEGATIVE,,
+"Un service client parfait et silencieux, merci beaucoup.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Livraison catastrophique, le logiciel est catastrophique.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Produit commandé lundi, reçu mercredi : la commande irréprochable !",POSITIVE,avis positif très court,
 "Méfiez-vous des avis positifs, ce chargeur est loin d'être à la hauteur.",NEGATIVE,négation,
 Achat parfait ! Le livre réponde en tout point à mes attentes.,POSITIVE,,
@@ -367,13 +367,13 @@ Achat parfait ! Le livre réponde en tout point à mes attentes.,POSITIVE,,
 "Utilisation robuste au quotidien, installation très professionnel.",POSITIVE,négation,
 "Très déçu par le service client, le clavier est arrivé rayé.",NEGATIVE,négation,
 "Utilisation silencieux au quotidien, installation de grande qualité.",POSITIVE,,
-"Livraison catastrophique, le smartphone est rayé.",NEGATIVE,vocabulaire trompeur,
+"Livraison catastrophique, le smartphone est rayé.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce sac à dos, parfaitement surpris !",POSITIVE,négation,
 "Problème dès 48 heures, le montre connectée plante régulièrement sans raison.",NEGATIVE,,
 Commande reçue rapidement et support ventilé très professionnel.,POSITIVE,négation,
 Inadmissible : la pièce principale est manquante et le service client ne fait rien.,NEGATIVE,négation,
 "Je ne regrette absolument pas cet achat de robot de cuisine, c'est impeccable.",POSITIVE,avis positif très court,
-"Très déçu par l'emballage, le aspirateur est arrivé inutilisable.",NEGATIVE,ironie,
+"Très déçu par l'emballage, le aspirateur est arrivé inutilisable.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, montre connectée esthétique et très simple.",POSITIVE,avis positif très court,
 "Belle présentation sur le site, mais en réalité le livre est catastrophique.",NEGATIVE,vocabulaire trompeur,
 "Vêtement de très bonne qualité, livraison rapide.",POSITIVE,négation,
@@ -385,7 +385,7 @@ Je demande un remboursement car le robot de cuisine est tombé en panne au bout 
 "Très satisfait de le suivi de colis, le sac à dos fonctionne agréablement.",POSITIVE,,
 "Passez votre chemin, ce aspirateur accumule les défauts de fabrication.",NEGATIVE,vocabulaire trompeur,
 "Interface fluide, smartphone esthétique et très fluide.",POSITIVE,,
-"Livraison catastrophique, le aspirateur est défectueux.",NEGATIVE,vocabulaire trompeur,
+"Livraison catastrophique, le aspirateur est défectueux.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Ordinateur portable de très bonne qualité, livraison intuitif.",POSITIVE,négation,
 "Problème dès le premier lavage, le appareil photo s'arrête brutalement sans raison.",NEGATIVE,vocabulaire trompeur,
 Achat parfait ! Le écran réponde en tout point à mes attentes.,POSITIVE,négation,
@@ -394,7 +394,7 @@ Achat parfait ! Le écran réponde en tout point à mes attentes.,POSITIVE,néga
 "Article de mauvaise qualité, le système bugue constamment après le premier lavage.",NEGATIVE,vocabulaire trompeur,
 "Casque audio de très bonne qualité, livraison simple.",POSITIVE,,
 Je demande un remboursement car le smartphone est tombé en panne au bout de trois semaines.,NEGATIVE,,
-"Un service client remarquable et efficace, merci beaucoup.",POSITIVE,avis positif très court,
+"Un service client remarquable et efficace, merci beaucoup.",POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Je demande un remboursement car le chargeur est tombé en panne au bout de 48 heures.,NEGATIVE,ironie,
 "Utilisation simple au quotidien, installation soigné.",POSITIVE,avis mitigé,
 Je demande un remboursement car le câble USB-C est tombé en panne au bout de deux jours.,NEGATIVE,négation,
@@ -403,7 +403,7 @@ Attente de trois semaines pour recevoir un câble USB-C totalement rayé.,NEGATI
 "Très bonne marque, ce appareil photo est ergonomique et agréable.",POSITIVE,,
 "Problème dès deux jours, le vêtement grésille sans arrêt sans raison.",NEGATIVE,,
 "Livraison avec deux jours de plus, mais le aspirateur est soigné.",POSITIVE,avis positif très court,
-"Très déçu par le SAV, le smartphone est arrivé incomplet.",NEGATIVE,,
+"Très déçu par le SAV, le smartphone est arrivé incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Le service après-vente a répondu en 5 minutes, très conforme.",POSITIVE,,
 "Très déçu par l'assistance technique, le support ventilé est arrivé cassé.",NEGATIVE,,
 "Utilisation agréable au quotidien, installation impeccable.",POSITIVE,,
@@ -412,30 +412,30 @@ Attente de trois semaines pour recevoir un câble USB-C totalement rayé.,NEGATI
 "Problème dès trois semaines, le robot de cuisine plante régulièrement sans raison.",NEGATIVE,négation,
 "Très bonne marque, ce ordinateur portable est ergonomique et intuitif.",POSITIVE,,
 "Méfiez-vous des avis positifs, ce aspirateur est loin d'être à la hauteur.",NEGATIVE,,
-Commande reçue rapidement et smartphone parfait.,POSITIVE,négation,
+Commande reçue rapidement et smartphone parfait.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Emballage abîmé et vêtement abîmé, déception totale.",NEGATIVE,vocabulaire trompeur,
 "Le service après-vente a répondu en 5 minutes, très impeccable.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le smartphone est inutilisable.",NEGATIVE,ironie,
-"Un service client remarquable et intuitif, merci beaucoup.",POSITIVE,avis mitigé,
-"Très déçu par l'assistance technique, le ordinateur portable est arrivé défectueux.",NEGATIVE,,
+"Un service client remarquable et intuitif, merci beaucoup.",POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Très déçu par l'assistance technique, le ordinateur portable est arrivé défectueux.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Achat parfait ! Le sac à dos réponde en tout point à mes attentes.,POSITIVE,négation,
 "Passez votre chemin, ce écouteurs accumule les défauts de fabrication.",NEGATIVE,négation,
 "Très bonne marque, ce livre est ergonomique et simple.",POSITIVE,,
 Je demande un remboursement car le support ventilé est tombé en panne au bout de une seule utilisation.,NEGATIVE,négation,
-Commande reçue rapidement et chargeur réactif.,POSITIVE,négation,
+Commande reçue rapidement et chargeur réactif.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne recommande pas ce écran, la fermeture a cassé.",NEGATIVE,négation,
 "Interface fluide, robot de cuisine esthétique et très intuitif.",POSITIVE,avis mitigé,
-"Qualité médiocre pour le prix, le écran fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,
+"Qualité médiocre pour le prix, le écran fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce logiciel est ergonomique et robuste.",POSITIVE,,
 Attente de trois semaines pour recevoir un livre totalement défectueux.,NEGATIVE,vocabulaire trompeur,
 "Super rapport qualité-prix pour ce montre connectée, idéalement surpris !",POSITIVE,,
-"Qualité médiocre pour le prix, le aspirateur fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le aspirateur fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce chargeur est ergonomique et intuitif.",POSITIVE,,
-"Qualité médiocre pour le prix, le appareil photo fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le appareil photo fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, sac à dos conforme aux attentes et de grande qualité.",POSITIVE,avis positif très court,
 "Service client abîmé, aucune réponse malgré deux mails restés sans réponse.",NEGATIVE,,
 "Interface fluide, appareil photo esthétique et très silencieux.",POSITIVE,,
-"Livraison catastrophique, le câble USB-C est incomplet.",NEGATIVE,,
+"Livraison catastrophique, le câble USB-C est incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Smartphone de très bonne qualité, livraison simple.",POSITIVE,négation,
 "Je ne recommande pas ce chargeur, la fermeture a cassé.",NEGATIVE,,
 "Excellente expérience avec le suivi de colis, je recommande les yeux fermés !",POSITIVE,,
@@ -454,16 +454,16 @@ Achat parfait ! Le casque audio réponde en tout point à mes attentes.,POSITIVE
 Attente de trois semaines pour recevoir un support ventilé totalement catastrophique.,NEGATIVE,,
 "Livre de très bonne qualité, livraison agréable.",POSITIVE,,
 "Méfiez-vous des avis positifs, ce câble USB-C est loin d'être à la hauteur.",NEGATIVE,négation,
-"Un service client remarquable et fluide, merci beaucoup.",POSITIVE,négation,
+"Un service client remarquable et fluide, merci beaucoup.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Je demande un remboursement car le écouteurs est tombé en panne au bout de une seule utilisation.,NEGATIVE,ironie,
 "Très satisfait de la livraison, le livre fonctionne sans problème.",POSITIVE,,
 Attente de trois semaines pour recevoir un livre totalement cassé.,NEGATIVE,ironie,
-"Utilisation efficace au quotidien, installation remarquable.",POSITIVE,avis mitigé,
+"Utilisation efficace au quotidien, installation remarquable.",POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Je demande un remboursement car le logiciel est tombé en panne au bout de le premier lavage.,NEGATIVE,,
 "Aspirateur de très bonne qualité, livraison agréable.",POSITIVE,négation,
 "Article de mauvaise qualité, la batterie ne tient pas après 48 heures.",NEGATIVE,ironie,
 "Livre de très bonne qualité, livraison intuitif.",POSITIVE,,
-"Je ne recommande pas ce sac à dos, la notice est illisible.",NEGATIVE,négation,
+"Je ne recommande pas ce sac à dos, la notice est illisible.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec le service client, je recommande chaleureusement !",POSITIVE,,
 Je demande un remboursement car le livre est tombé en panne au bout de deux jours.,NEGATIVE,,
 "Excellente expérience avec l'interface, je recommande chaleureusement !",POSITIVE,négation,
@@ -473,8 +473,8 @@ Je demande un remboursement car le montre connectée est tombé en panne au bout
 "Utilisation agréable au quotidien, installation très professionnel.",POSITIVE,,
 "Service client rayé, aucune réponse malgré plusieurs appels.",NEGATIVE,vocabulaire trompeur,
 "Excellente expérience avec l'assistance technique, je recommande sans hésiter !",POSITIVE,,
-"Très déçu par la livraison, le clavier est arrivé catastrophique.",NEGATIVE,négation,
-Commande reçue rapidement et robot de cuisine soigné.,POSITIVE,avis mitigé,
+"Très déçu par la livraison, le clavier est arrivé catastrophique.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Commande reçue rapidement et robot de cuisine soigné.,POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Méfiez-vous des avis positifs, ce clavier est loin d'être à la hauteur.",NEGATIVE,,
 "Très satisfait de le SAV, le câble USB-C fonctionne agréablement.",POSITIVE,,
 "Passez votre chemin, ce smartphone accumule les défauts de fabrication.",NEGATIVE,vocabulaire trompeur,
@@ -483,9 +483,9 @@ Commande reçue rapidement et robot de cuisine soigné.,POSITIVE,avis mitigé,
 "Très satisfait de la livraison, le vêtement fonctionne idéalement.",POSITIVE,,
 Attente de trois semaines pour recevoir un smartphone totalement abîmé.,NEGATIVE,vocabulaire trompeur,
 "Très bonne marque, ce clavier est ergonomique et efficace.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce écouteurs, les dimensions ne correspondent pas.",NEGATIVE,,
-Commande reçue rapidement et sac à dos conforme.,POSITIVE,avis positif très court,
-"Qualité médiocre pour le prix, le vêtement fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce écouteurs, les dimensions ne correspondent pas.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Commande reçue rapidement et sac à dos conforme.,POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Qualité médiocre pour le prix, le vêtement fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, aspirateur esthétique et très rapide.",POSITIVE,négation,
 "Livraison catastrophique, le logiciel est cassé.",NEGATIVE,,
 "Livre de très bonne qualité, livraison rapide.",POSITIVE,avis positif très court,
@@ -499,13 +499,13 @@ Commande reçue rapidement et sac à dos conforme.,POSITIVE,avis positif très c
 "Très satisfait de le SAV, le logiciel fonctionne agréablement.",POSITIVE,avis mitigé,
 "Emballage abîmé et meuble défectueux, déception totale.",NEGATIVE,négation,
 "Rien à redire, ordinateur portable conforme aux attentes et très professionnel.",POSITIVE,,
-"Qualité médiocre pour le prix, le support ventilé fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,
+"Qualité médiocre pour le prix, le support ventilé fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Sac à dos de très bonne qualité, livraison intuitif.",POSITIVE,,
-"Je ne recommande pas ce chargeur, le colis était vide.",NEGATIVE,négation,
+"Je ne recommande pas ce chargeur, le colis était vide.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, chargeur conforme aux attentes et parfait.",POSITIVE,avis mitigé,
-"Très déçu par le SAV, le ordinateur portable est arrivé incomplet.",NEGATIVE,vocabulaire trompeur,
+"Très déçu par le SAV, le ordinateur portable est arrivé incomplet.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce clavier est ergonomique et robuste.",POSITIVE,,
-"Je ne recommande pas ce montre connectée, la notice est illisible.",NEGATIVE,ironie,
+"Je ne recommande pas ce montre connectée, la notice est illisible.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, logiciel conforme aux attentes et conforme.",POSITIVE,avis mitigé,
 "Service client incomplet, aucune réponse malgré deux mails restés sans réponse.",NEGATIVE,,
 "Super rapport qualité-prix pour ce livre, idéalement surpris !",POSITIVE,,
@@ -513,29 +513,29 @@ Commande reçue rapidement et sac à dos conforme.,POSITIVE,avis positif très c
 "Montre connectée de très bonne qualité, livraison robuste.",POSITIVE,avis positif très court,
 "Très déçu par le service client, le montre connectée est arrivé rayé.",NEGATIVE,,
 "Très satisfait de le SAV, le clavier fonctionne idéalement.",POSITIVE,,
-"Livraison catastrophique, le vêtement est incomplet.",NEGATIVE,,
+"Livraison catastrophique, le vêtement est incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec l'assistance technique, je recommande chaleureusement !",POSITIVE,avis positif très court,
-"Qualité médiocre pour le prix, le meuble fait un bruit anormal.",NEGATIVE,ironie,
+"Qualité médiocre pour le prix, le meuble fait un bruit anormal.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un petit délai, mais le chargeur est remarquable.",POSITIVE,,
-"Livraison catastrophique, le smartphone est abîmé.",NEGATIVE,négation,
+"Livraison catastrophique, le smartphone est abîmé.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce robot de cuisine, sans problème surpris !",POSITIVE,,
 "Emballage abîmé et smartphone incomplet, déception totale.",NEGATIVE,négation,
 "Rien à redire, casque audio conforme aux attentes et conforme.",POSITIVE,avis positif très court,
 "Problème dès deux jours, le support ventilé grésille sans arrêt sans raison.",NEGATIVE,ironie,
-"Un service client réactif et silencieux, merci beaucoup.",POSITIVE,,
-"Je ne recommande pas ce logiciel, le colis était vide.",NEGATIVE,,
+"Un service client réactif et silencieux, merci beaucoup.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce logiciel, le colis était vide.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Utilisation agréable au quotidien, installation conforme.",POSITIVE,avis mitigé,
-"Très déçu par le SAV, le appareil photo est arrivé rayé.",NEGATIVE,négation,
+"Très déçu par le SAV, le appareil photo est arrivé rayé.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de écran, c'est remarquable.",POSITIVE,négation,
 Attente de trois semaines pour recevoir un aspirateur totalement cassé.,NEGATIVE,,
 "Très satisfait de le SAV, le livre fonctionne superbement.",POSITIVE,avis mitigé,
 "Service client défectueux, aucune réponse malgré une semaine d'attente.",NEGATIVE,vocabulaire trompeur,
-"Utilisation rapide au quotidien, installation parfait.",POSITIVE,,
+"Utilisation rapide au quotidien, installation parfait.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Problème dès le premier lavage, le support ventilé ne s'allume plus sans raison.",NEGATIVE,,
 "Super rapport qualité-prix pour ce chargeur, agréablement surpris !",POSITIVE,avis positif très court,
 "Problème dès une seule utilisation, le aspirateur plante régulièrement sans raison.",NEGATIVE,ironie,
 "Utilisation rapide au quotidien, installation très professionnel.",POSITIVE,,
-"Livraison catastrophique, le écran est abîmé.",NEGATIVE,,
+"Livraison catastrophique, le écran est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce clavier, sans problème surpris !",POSITIVE,négation,
 "Service client abîmé, aucune réponse malgré trois relances.",NEGATIVE,vocabulaire trompeur,
 "Écran de très bonne qualité, livraison rapide.",POSITIVE,,
@@ -548,7 +548,7 @@ Attente de trois semaines pour recevoir un robot de cuisine totalement incomplet
 "Article de mauvaise qualité, le colis était vide après deux jours.",NEGATIVE,vocabulaire trompeur,
 "Très bonne marque, ce support ventilé est ergonomique et rapide.",POSITIVE,,
 "Article de mauvaise qualité, les dimensions ne correspondent pas après trois semaines.",NEGATIVE,,
-"Un service client parfait et agréable, merci beaucoup.",POSITIVE,négation,
+"Un service client parfait et agréable, merci beaucoup.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Je demande un remboursement car le support ventilé est tombé en panne au bout de le premier lavage.,NEGATIVE,ironie,
 "Très satisfait de le suivi de colis, le chargeur fonctionne agréablement.",POSITIVE,,
 Je demande un remboursement car le casque audio est tombé en panne au bout de trois semaines.,NEGATIVE,vocabulaire trompeur,
@@ -557,29 +557,29 @@ Je demande un remboursement car le casque audio est tombé en panne au bout de t
 "Super rapport qualité-prix pour ce casque audio, superbement surpris !",POSITIVE,,
 "Problème dès le premier lavage, le chargeur surchauffe vite sans raison.",NEGATIVE,ironie,
 "Montre connectée de très bonne qualité, livraison intuitif.",POSITIVE,avis mitigé,
-"Livraison catastrophique, le support ventilé est rayé.",NEGATIVE,vocabulaire trompeur,
+"Livraison catastrophique, le support ventilé est rayé.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Montre connectée de très bonne qualité, livraison agréable.",POSITIVE,,
 Je demande un remboursement car le casque audio est tombé en panne au bout de quelques heures.,NEGATIVE,vocabulaire trompeur,
 "Livraison avec un léger retard, mais le robot de cuisine est réactif.",POSITIVE,avis mitigé,
 "Très déçu par la commande, le sac à dos est arrivé cassé.",NEGATIVE,,
 "Super rapport qualité-prix pour ce support ventilé, agréablement surpris !",POSITIVE,avis mitigé,
-"Je ne recommande pas ce chargeur, les dimensions ne correspondent pas.",NEGATIVE,,
+"Je ne recommande pas ce chargeur, les dimensions ne correspondent pas.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Achat parfait ! Le vêtement réponde en tout point à mes attentes.,POSITIVE,avis positif très court,
 "Belle présentation sur le site, mais en réalité le chargeur est cassé.",NEGATIVE,,
 Achat parfait ! Le appareil photo réponde en tout point à mes attentes.,POSITIVE,négation,
-"Qualité médiocre pour le prix, le montre connectée fait un bruit anormal.",NEGATIVE,ironie,
+"Qualité médiocre pour le prix, le montre connectée fait un bruit anormal.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'assistance technique, le ordinateur portable fonctionne sans problème.",POSITIVE,négation,
-"Article de mauvaise qualité, le colis était vide après une seule utilisation.",NEGATIVE,,
+"Article de mauvaise qualité, le colis était vide après une seule utilisation.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'emballage, le aspirateur fonctionne sans problème.",POSITIVE,négation,
-"Qualité médiocre pour le prix, le ordinateur portable fait un bruit anormal.",NEGATIVE,,
+"Qualité médiocre pour le prix, le ordinateur portable fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, meuble esthétique et très silencieux.",POSITIVE,avis mitigé,
-"Problème dès une seule utilisation, le meuble s'arrête brutalement sans raison.",NEGATIVE,ironie,
+"Problème dès une seule utilisation, le meuble s'arrête brutalement sans raison.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un petit délai, mais le écran est réactif.",POSITIVE,avis positif très court,
 "Service client rayé, aucune réponse malgré deux mails restés sans réponse.",NEGATIVE,,
 "Rien à redire, meuble conforme aux attentes et remarquable.",POSITIVE,,
-"Qualité médiocre pour le prix, le sac à dos fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,
+"Qualité médiocre pour le prix, le sac à dos fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, aspirateur conforme aux attentes et conforme.",POSITIVE,avis positif très court,
-"Très déçu par le SAV, le chargeur est arrivé abîmé.",NEGATIVE,,
+"Très déçu par le SAV, le chargeur est arrivé abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Ordinateur portable de très bonne qualité, livraison simple.",POSITIVE,négation,
 Je demande un remboursement car le smartphone est tombé en panne au bout de le premier lavage.,NEGATIVE,,
 Commande reçue rapidement et clavier très professionnel.,POSITIVE,avis positif très court,
@@ -594,21 +594,21 @@ Je demande un remboursement car le clavier est tombé en panne au bout de quelqu
 "Belle présentation sur le site, mais en réalité le aspirateur est incomplet.",NEGATIVE,,
 "Très satisfait de le suivi de colis, le robot de cuisine fonctionne idéalement.",POSITIVE,,
 "Méfiez-vous des avis positifs, ce ordinateur portable est loin d'être à la hauteur.",NEGATIVE,,
-Commande reçue rapidement et montre connectée remarquable.,POSITIVE,avis positif très court,
-"Problème dès une seule utilisation, le smartphone grésille sans arrêt sans raison.",NEGATIVE,vocabulaire trompeur,
+Commande reçue rapidement et montre connectée remarquable.,POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Problème dès une seule utilisation, le smartphone grésille sans arrêt sans raison.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un léger retard, mais le meuble est réactif.",POSITIVE,,
 "Emballage abîmé et sac à dos incomplet, déception totale.",NEGATIVE,vocabulaire trompeur,
 "Très bonne marque, ce chargeur est ergonomique et efficace.",POSITIVE,,
-"Je ne recommande pas ce écouteurs, le colis était vide.",NEGATIVE,négation,
+"Je ne recommande pas ce écouteurs, le colis était vide.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec la qualité globale, je recommande chaleureusement !",POSITIVE,,
 "Livraison catastrophique, le meuble est cassé.",NEGATIVE,vocabulaire trompeur,
 "Rien à redire, appareil photo conforme aux attentes et très professionnel.",POSITIVE,avis mitigé,
-"Livraison catastrophique, le chargeur est incomplet.",NEGATIVE,,
+"Livraison catastrophique, le chargeur est incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce aspirateur est ergonomique et fluide.",POSITIVE,avis positif très court,
 "Article de mauvaise qualité, la fermeture a cassé après trois semaines.",NEGATIVE,négation,
 "Logiciel de très bonne qualité, livraison simple.",POSITIVE,,
 "Article de mauvaise qualité, la batterie ne tient pas après deux jours.",NEGATIVE,,
-"Utilisation fluide au quotidien, installation remarquable.",POSITIVE,négation,
+"Utilisation fluide au quotidien, installation remarquable.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Attente de trois semaines pour recevoir un chargeur totalement catastrophique.,NEGATIVE,vocabulaire trompeur,
 "Super rapport qualité-prix pour ce smartphone, agréablement surpris !",POSITIVE,,
 Attente de trois semaines pour recevoir un casque audio totalement abîmé.,NEGATIVE,négation,
@@ -617,21 +617,21 @@ Je demande un remboursement car le support ventilé est tombé en panne au bout 
 "Je ne regrette absolument pas cet achat de appareil photo, c'est remarquable.",POSITIVE,avis mitigé,
 "Emballage abîmé et chargeur rayé, déception totale.",NEGATIVE,vocabulaire trompeur,
 "Utilisation efficace au quotidien, installation soigné.",POSITIVE,négation,
-"Livraison catastrophique, le chargeur est rayé.",NEGATIVE,,
+"Livraison catastrophique, le chargeur est rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de l'emballage, le robot de cuisine fonctionne idéalement.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le câble USB-C est cassé.",NEGATIVE,vocabulaire trompeur,
 "Très satisfait de le suivi de colis, le smartphone fonctionne très bien.",POSITIVE,avis mitigé,
-"Très déçu par la qualité globale, le smartphone est arrivé abîmé.",NEGATIVE,vocabulaire trompeur,
+"Très déçu par la qualité globale, le smartphone est arrivé abîmé.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce câble USB-C est ergonomique et agréable.",POSITIVE,,
 Attente de trois semaines pour recevoir un appareil photo totalement incomplet.,NEGATIVE,ironie,
 "Livraison avec un petit délai, mais le câble USB-C est parfait.",POSITIVE,,
 Attente de trois semaines pour recevoir un casque audio totalement inutilisable.,NEGATIVE,,
-Commande reçue rapidement et livre réactif.,POSITIVE,négation,
+Commande reçue rapidement et livre réactif.,POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Belle présentation sur le site, mais en réalité le robot de cuisine est incomplet.",NEGATIVE,,
 "Très satisfait de le SAV, le logiciel fonctionne sans problème.",POSITIVE,,
-"Je ne recommande pas ce ordinateur portable, les dimensions ne correspondent pas.",NEGATIVE,,
+"Je ne recommande pas ce ordinateur portable, les dimensions ne correspondent pas.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de la commande, le robot de cuisine fonctionne agréablement.",POSITIVE,,
-"Très déçu par l'interface, le appareil photo est arrivé incomplet.",NEGATIVE,,
+"Très déçu par l'interface, le appareil photo est arrivé incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un petit délai, mais le support ventilé est parfait.",POSITIVE,,
 "Emballage abîmé et écouteurs abîmé, déception totale.",NEGATIVE,ironie,
 "Utilisation rapide au quotidien, installation soigné.",POSITIVE,,
@@ -643,9 +643,9 @@ Attente de trois semaines pour recevoir un montre connectée totalement abîmé.
 "Je ne regrette absolument pas cet achat de logiciel, c'est réactif.",POSITIVE,négation,
 "Méfiez-vous des avis positifs, ce casque audio est loin d'être à la hauteur.",NEGATIVE,,
 "Meuble de très bonne qualité, livraison rapide.",POSITIVE,,
-"Très déçu par l'assistance technique, le écouteurs est arrivé rayé.",NEGATIVE,,
+"Très déçu par l'assistance technique, le écouteurs est arrivé rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un léger retard, mais le livre est impeccable.",POSITIVE,avis positif très court,
-"Livraison catastrophique, le clavier est inutilisable.",NEGATIVE,négation,
+"Livraison catastrophique, le clavier est inutilisable.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de aspirateur, c'est réactif.",POSITIVE,,
 "Méfiez-vous des avis positifs, ce sac à dos est loin d'être à la hauteur.",NEGATIVE,vocabulaire trompeur,
 "Montre connectée de très bonne qualité, livraison silencieux.",POSITIVE,,
@@ -667,7 +667,7 @@ Attente de trois semaines pour recevoir un montre connectée totalement abîmé.
 "Rien à redire, support ventilé conforme aux attentes et soigné.",POSITIVE,avis positif très court,
 "Article de mauvaise qualité, les dimensions ne correspondent pas après deux jours.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de smartphone, c'est réactif.",POSITIVE,,
-"Livraison catastrophique, le chargeur est inutilisable.",NEGATIVE,négation,
+"Livraison catastrophique, le chargeur est inutilisable.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un léger retard, mais le logiciel est impeccable.",POSITIVE,avis mitigé,
 "Passez votre chemin, ce écran accumule les défauts de fabrication.",NEGATIVE,,
 Commande reçue rapidement et vêtement impeccable.,POSITIVE,négation,
@@ -682,49 +682,49 @@ Attente de trois semaines pour recevoir un meuble totalement cassé.,NEGATIVE,ir
 Je demande un remboursement car le meuble est tombé en panne au bout de quelques heures.,NEGATIVE,vocabulaire trompeur,
 "Très bonne marque, ce robot de cuisine est ergonomique et efficace.",POSITIVE,,
 Attente de trois semaines pour recevoir un clavier totalement abîmé.,NEGATIVE,,
-Commande reçue rapidement et câble USB-C parfait.,POSITIVE,,
+Commande reçue rapidement et câble USB-C parfait.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Service client inutilisable, aucune réponse malgré plusieurs appels.",NEGATIVE,vocabulaire trompeur,
 "Super rapport qualité-prix pour ce montre connectée, sans problème surpris !",POSITIVE,avis positif très court,
-"Problème dès une seule utilisation, le vêtement surchauffe vite sans raison.",NEGATIVE,ironie,
-Commande reçue rapidement et clavier parfait.,POSITIVE,avis positif très court,
-"Article de mauvaise qualité, la pièce principale est manquante après une seule utilisation.",NEGATIVE,,
+"Problème dès une seule utilisation, le vêtement surchauffe vite sans raison.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Commande reçue rapidement et clavier parfait.,POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Article de mauvaise qualité, la pièce principale est manquante après une seule utilisation.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de livre, c'est réactif.",POSITIVE,,
-"Très déçu par l'emballage, le aspirateur est arrivé incomplet.",NEGATIVE,vocabulaire trompeur,
+"Très déçu par l'emballage, le aspirateur est arrivé incomplet.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de écouteurs, c'est réactif.",POSITIVE,,
 "Livraison catastrophique, le livre est cassé.",NEGATIVE,,
 "Livraison avec un léger retard, mais le meuble est soigné.",POSITIVE,avis mitigé,
 Je demande un remboursement car le clavier est tombé en panne au bout de 48 heures.,NEGATIVE,négation,
 "Très bonne marque, ce robot de cuisine est ergonomique et fluide.",POSITIVE,négation,
-"Je ne recommande pas ce clavier, le colis était vide.",NEGATIVE,,
+"Je ne recommande pas ce clavier, le colis était vide.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce appareil photo est ergonomique et fluide.",POSITIVE,,
 Je demande un remboursement car le ordinateur portable est tombé en panne au bout de le premier lavage.,NEGATIVE,négation,
 "Je ne regrette absolument pas cet achat de aspirateur, c'est de grande qualité.",POSITIVE,avis positif très court,
 Je demande un remboursement car le livre est tombé en panne au bout de 48 heures.,NEGATIVE,,
 "Utilisation agréable au quotidien, installation soigné.",POSITIVE,,
-"Article de mauvaise qualité, le système bugue constamment après une seule utilisation.",NEGATIVE,,
+"Article de mauvaise qualité, le système bugue constamment après une seule utilisation.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, chargeur conforme aux attentes et remarquable.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le montre connectée est incomplet.",NEGATIVE,vocabulaire trompeur,
-"Un service client parfait et rapide, merci beaucoup.",POSITIVE,avis positif très court,
+"Un service client parfait et rapide, merci beaucoup.",POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison catastrophique, le montre connectée est cassé.",NEGATIVE,vocabulaire trompeur,
 Commande reçue rapidement et aspirateur très professionnel.,POSITIVE,,
 "Méfiez-vous des avis positifs, ce robot de cuisine est loin d'être à la hauteur.",NEGATIVE,,
 "Super rapport qualité-prix pour ce clavier, superbement surpris !",POSITIVE,avis mitigé,
 "Emballage abîmé et smartphone rayé, déception totale.",NEGATIVE,ironie,
-"Utilisation simple au quotidien, installation réactif.",POSITIVE,avis positif très court,
+"Utilisation simple au quotidien, installation réactif.",POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Problème dès 48 heures, le sac à dos grésille sans arrêt sans raison.",NEGATIVE,ironie,
-Commande reçue rapidement et meuble de grande qualité.,POSITIVE,,
+Commande reçue rapidement et meuble de grande qualité.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Attente de trois semaines pour recevoir un clavier totalement catastrophique.,NEGATIVE,,
 "Excellente expérience avec la commande, je recommande les yeux fermés !",POSITIVE,avis mitigé,
-"Très déçu par l'assistance technique, le chargeur est arrivé catastrophique.",NEGATIVE,,
+"Très déçu par l'assistance technique, le chargeur est arrivé catastrophique.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de écouteurs, c'est de grande qualité.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le support ventilé est cassé.",NEGATIVE,,
 "Un service client soigné et fluide, merci beaucoup.",POSITIVE,,
 Je demande un remboursement car le livre est tombé en panne au bout de le premier lavage.,NEGATIVE,,
 "Rien à redire, smartphone conforme aux attentes et soigné.",POSITIVE,,
-"Problème dès trois semaines, le câble USB-C ne s'allume plus sans raison.",NEGATIVE,,
+"Problème dès trois semaines, le câble USB-C ne s'allume plus sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, écouteurs esthétique et très intuitif.",POSITIVE,avis positif très court,
 Je demande un remboursement car le support ventilé est tombé en panne au bout de 48 heures.,NEGATIVE,négation,
-"Un service client remarquable et rapide, merci beaucoup.",POSITIVE,avis mitigé,
+"Un service client remarquable et rapide, merci beaucoup.",POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Belle présentation sur le site, mais en réalité le clavier est catastrophique.",NEGATIVE,,
 "Livraison avec deux jours de plus, mais le clavier est parfait.",POSITIVE,avis positif très court,
 "Problème dès une seule utilisation, le meuble plante régulièrement sans raison.",NEGATIVE,,
@@ -745,13 +745,13 @@ Je demande un remboursement car le support ventilé est tombé en panne au bout 
 "Rien à redire, chargeur conforme aux attentes et très professionnel.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le logiciel est défectueux.",NEGATIVE,vocabulaire trompeur,
 "Utilisation simple au quotidien, installation très professionnel.",POSITIVE,,
-"Je ne recommande pas ce montre connectée, le colis était vide.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce montre connectée, le colis était vide.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Achat parfait ! Le smartphone réponde en tout point à mes attentes.,POSITIVE,avis positif très court,
 "Belle présentation sur le site, mais en réalité le livre est abîmé.",NEGATIVE,vocabulaire trompeur,
 "Rien à redire, écran conforme aux attentes et parfait.",POSITIVE,avis mitigé,
 "Belle présentation sur le site, mais en réalité le clavier est incomplet.",NEGATIVE,,
-Commande reçue rapidement et chargeur soigné.,POSITIVE,,
-"Qualité médiocre pour le prix, le casque audio fait un bruit anormal.",NEGATIVE,,
+Commande reçue rapidement et chargeur soigné.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Qualité médiocre pour le prix, le casque audio fait un bruit anormal.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Un service client conforme et intuitif, merci beaucoup.",POSITIVE,,
 "Service client cassé, aucune réponse malgré deux mails restés sans réponse.",NEGATIVE,,
 "Interface fluide, livre esthétique et très efficace.",POSITIVE,avis mitigé,
@@ -761,23 +761,23 @@ Je demande un remboursement car le aspirateur est tombé en panne au bout de deu
 "Utilisation efficace au quotidien, installation impeccable.",POSITIVE,,
 "Article de mauvaise qualité, la batterie ne tient pas après trois semaines.",NEGATIVE,vocabulaire trompeur,
 "Livraison avec un petit délai, mais le livre est réactif.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce écran, les dimensions ne correspondent pas.",NEGATIVE,négation,
+"Je ne recommande pas ce écran, les dimensions ne correspondent pas.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce robot de cuisine est ergonomique et simple.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce sac à dos, les dimensions ne correspondent pas.",NEGATIVE,ironie,
+"Je ne recommande pas ce sac à dos, les dimensions ne correspondent pas.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, appareil photo esthétique et très fluide.",POSITIVE,,
 Je demande un remboursement car le écran est tombé en panne au bout de le premier lavage.,NEGATIVE,,
 "Je ne regrette absolument pas cet achat de meuble, c'est soigné.",POSITIVE,,
-"Problème dès une seule utilisation, le montre connectée ne s'allume plus sans raison.",NEGATIVE,ironie,
-"Utilisation intuitif au quotidien, installation réactif.",POSITIVE,négation,
+"Problème dès une seule utilisation, le montre connectée ne s'allume plus sans raison.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Utilisation intuitif au quotidien, installation réactif.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne recommande pas ce ordinateur portable, la fermeture a cassé.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de clavier, c'est soigné.",POSITIVE,,
-"Je ne recommande pas ce meuble, la connectique est défaillante.",NEGATIVE,,
-Commande reçue rapidement et écran soigné.,POSITIVE,avis positif très court,
+"Je ne recommande pas ce meuble, la connectique est défaillante.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+Commande reçue rapidement et écran soigné.,POSITIVE,avis positif très court,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne recommande pas ce écouteurs, la fermeture a cassé.",NEGATIVE,,
 "Livraison avec un léger retard, mais le aspirateur est remarquable.",POSITIVE,,
 "Service client abîmé, aucune réponse malgré une semaine d'attente.",NEGATIVE,,
 "Chargeur de très bonne qualité, livraison rapide.",POSITIVE,,
-"Je ne recommande pas ce clavier, le système bugue constamment.",NEGATIVE,négation,
+"Je ne recommande pas ce clavier, le système bugue constamment.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Commande reçue rapidement et chargeur très professionnel.,POSITIVE,,
 "Problème dès deux jours, le aspirateur ne s'allume plus sans raison.",NEGATIVE,,
 "Livraison avec un léger retard, mais le appareil photo est soigné.",POSITIVE,négation,
@@ -793,11 +793,11 @@ Attente de trois semaines pour recevoir un écran totalement abîmé.,NEGATIVE,,
 "Très satisfait de l'emballage, le meuble fonctionne parfaitement.",POSITIVE,négation,
 Je demande un remboursement car le sac à dos est tombé en panne au bout de deux jours.,NEGATIVE,,
 "Très bonne marque, ce livre est ergonomique et intuitif.",POSITIVE,,
-"Très déçu par la livraison, le clavier est arrivé rayé.",NEGATIVE,,
+"Très déçu par la livraison, le clavier est arrivé rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Utilisation silencieux au quotidien, installation soigné.",POSITIVE,,
-"Très déçu par la qualité globale, le smartphone est arrivé inutilisable.",NEGATIVE,,
+"Très déçu par la qualité globale, le smartphone est arrivé inutilisable.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de la commande, le casque audio fonctionne très bien.",POSITIVE,avis mitigé,
-"Livraison catastrophique, le sac à dos est catastrophique.",NEGATIVE,,
+"Livraison catastrophique, le sac à dos est catastrophique.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, écouteurs esthétique et très fluide.",POSITIVE,avis positif très court,
 Je demande un remboursement car le logiciel est tombé en panne au bout de deux jours.,NEGATIVE,,
 "Je ne regrette absolument pas cet achat de sac à dos, c'est très professionnel.",POSITIVE,,
@@ -809,7 +809,7 @@ Attente de trois semaines pour recevoir un montre connectée totalement incomple
 "Livraison avec un léger retard, mais le câble USB-C est remarquable.",POSITIVE,,
 Je demande un remboursement car le livre est tombé en panne au bout de quelques heures.,NEGATIVE,,
 "Interface fluide, smartphone esthétique et très intuitif.",POSITIVE,,
-"Je ne recommande pas ce écouteurs, la connectique est défaillante.",NEGATIVE,négation,
+"Je ne recommande pas ce écouteurs, la connectique est défaillante.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Utilisation simple au quotidien, installation de grande qualité.",POSITIVE,,
 "Emballage abîmé et ordinateur portable défectueux, déception totale.",NEGATIVE,ironie,
 "Super rapport qualité-prix pour ce appareil photo, parfaitement surpris !",POSITIVE,négation,
@@ -821,25 +821,25 @@ Attente de trois semaines pour recevoir un sac à dos totalement catastrophique.
 "Utilisation intuitif au quotidien, installation très professionnel.",POSITIVE,avis positif très court,
 Attente de trois semaines pour recevoir un meuble totalement incomplet.,NEGATIVE,vocabulaire trompeur,
 "Livraison avec un petit délai, mais le montre connectée est remarquable.",POSITIVE,avis positif très court,
-"Très déçu par l'emballage, le clavier est arrivé défectueux.",NEGATIVE,négation,
+"Très déçu par l'emballage, le clavier est arrivé défectueux.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de logiciel, c'est impeccable.",POSITIVE,,
 Je demande un remboursement car le écran est tombé en panne au bout de une seule utilisation.,NEGATIVE,ironie,
 "Très satisfait de la qualité globale, le chargeur fonctionne parfaitement.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le logiciel est rayé.",NEGATIVE,ironie,
 "Livraison avec un léger retard, mais le sac à dos est très professionnel.",POSITIVE,avis mitigé,
-"Livraison catastrophique, le appareil photo est catastrophique.",NEGATIVE,,
+"Livraison catastrophique, le appareil photo est catastrophique.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de montre connectée, c'est remarquable.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le écouteurs est abîmé.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de meuble, c'est réactif.",POSITIVE,,
-"Livraison catastrophique, le vêtement est inutilisable.",NEGATIVE,ironie,
+"Livraison catastrophique, le vêtement est inutilisable.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, smartphone conforme aux attentes et conforme.",POSITIVE,négation,
 "Passez votre chemin, ce support ventilé accumule les défauts de fabrication.",NEGATIVE,,
 "Super rapport qualité-prix pour ce montre connectée, très bien surpris !",POSITIVE,,
 "Problème dès deux jours, le écran plante régulièrement sans raison.",NEGATIVE,,
 "Interface fluide, livre esthétique et très rapide.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce livre, la connectique est défaillante.",NEGATIVE,négation,
+"Je ne recommande pas ce livre, la connectique est défaillante.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Utilisation intuitif au quotidien, installation impeccable.",POSITIVE,,
-"Livraison catastrophique, le montre connectée est défectueux.",NEGATIVE,,
+"Livraison catastrophique, le montre connectée est défectueux.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce support ventilé est ergonomique et robuste.",POSITIVE,négation,
 Je demande un remboursement car le casque audio est tombé en panne au bout de 48 heures.,NEGATIVE,vocabulaire trompeur,
 "Rien à redire, ordinateur portable conforme aux attentes et remarquable.",POSITIVE,,
@@ -851,9 +851,9 @@ Attente de trois semaines pour recevoir un meuble totalement inutilisable.,NEGAT
 "Rien à redire, logiciel conforme aux attentes et très professionnel.",POSITIVE,avis mitigé,
 "Passez votre chemin, ce clavier accumule les défauts de fabrication.",NEGATIVE,négation,
 "Super rapport qualité-prix pour ce appareil photo, superbement surpris !",POSITIVE,avis positif très court,
-"Très déçu par l'emballage, le logiciel est arrivé incomplet.",NEGATIVE,,
+"Très déçu par l'emballage, le logiciel est arrivé incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un petit délai, mais le robot de cuisine est conforme.",POSITIVE,,
-"Très déçu par le SAV, le écouteurs est arrivé abîmé.",NEGATIVE,négation,
+"Très déçu par le SAV, le écouteurs est arrivé abîmé.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce logiciel est ergonomique et intuitif.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le vêtement est rayé.",NEGATIVE,négation,
 "Utilisation silencieux au quotidien, installation très professionnel.",POSITIVE,,
@@ -861,17 +861,17 @@ Attente de trois semaines pour recevoir un meuble totalement inutilisable.,NEGAT
 "Super rapport qualité-prix pour ce chargeur, très bien surpris !",POSITIVE,,
 Attente de trois semaines pour recevoir un clavier totalement cassé.,NEGATIVE,vocabulaire trompeur,
 "Super rapport qualité-prix pour ce vêtement, superbement surpris !",POSITIVE,,
-"Très déçu par la qualité globale, le livre est arrivé rayé.",NEGATIVE,,
-"Un service client remarquable et simple, merci beaucoup.",POSITIVE,,
-"Je ne recommande pas ce câble USB-C, le colis était vide.",NEGATIVE,négation,
+"Très déçu par la qualité globale, le livre est arrivé rayé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Un service client remarquable et simple, merci beaucoup.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce câble USB-C, le colis était vide.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Achat parfait ! Le câble USB-C réponde en tout point à mes attentes.,POSITIVE,,
 "Problème dès deux jours, le meuble ne s'allume plus sans raison.",NEGATIVE,négation,
 "Très bonne marque, ce robot de cuisine est ergonomique et robuste.",POSITIVE,,
 Attente de trois semaines pour recevoir un écouteurs totalement inutilisable.,NEGATIVE,,
 "Très bonne marque, ce écran est ergonomique et simple.",POSITIVE,avis positif très court,
-"Je ne recommande pas ce vêtement, la connectique est défaillante.",NEGATIVE,négation,
+"Je ne recommande pas ce vêtement, la connectique est défaillante.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce clavier, parfaitement surpris !",POSITIVE,avis positif très court,
-"Livraison catastrophique, le écouteurs est catastrophique.",NEGATIVE,ironie,
+"Livraison catastrophique, le écouteurs est catastrophique.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, écran conforme aux attentes et réactif.",POSITIVE,,
 Je demande un remboursement car le chargeur est tombé en panne au bout de trois semaines.,NEGATIVE,,
 "Un service client de grande qualité et efficace, merci beaucoup.",POSITIVE,négation,
@@ -879,7 +879,7 @@ Attente de trois semaines pour recevoir un ordinateur portable totalement rayé.
 "Livraison avec un petit délai, mais le meuble est parfait.",POSITIVE,négation,
 Je demande un remboursement car le chargeur est tombé en panne au bout de deux jours.,NEGATIVE,négation,
 "Je ne regrette absolument pas cet achat de clavier, c'est très professionnel.",POSITIVE,,
-"Je ne recommande pas ce appareil photo, les dimensions ne correspondent pas.",NEGATIVE,,
+"Je ne recommande pas ce appareil photo, les dimensions ne correspondent pas.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec deux jours de plus, mais le ordinateur portable est parfait.",POSITIVE,,
 "Emballage abîmé et smartphone abîmé, déception totale.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de casque audio, c'est réactif.",POSITIVE,avis mitigé,
@@ -891,7 +891,7 @@ Attente de trois semaines pour recevoir un vêtement totalement cassé.,NEGATIVE
 "Câble usb-c de très bonne qualité, livraison efficace.",POSITIVE,,
 "Emballage abîmé et casque audio catastrophique, déception totale.",NEGATIVE,,
 "Rien à redire, livre conforme aux attentes et réactif.",POSITIVE,avis mitigé,
-"Très déçu par la qualité globale, le appareil photo est arrivé abîmé.",NEGATIVE,,
+"Très déçu par la qualité globale, le appareil photo est arrivé abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de sac à dos, c'est réactif.",POSITIVE,,
 "Article de mauvaise qualité, la notice est illisible après trois semaines.",NEGATIVE,,
 "Rien à redire, montre connectée conforme aux attentes et impeccable.",POSITIVE,,
@@ -899,103 +899,103 @@ Je demande un remboursement car le robot de cuisine est tombé en panne au bout 
 Commande reçue rapidement et ordinateur portable impeccable.,POSITIVE,,
 "Livraison catastrophique, le écran est cassé.",NEGATIVE,ironie,
 "Interface fluide, smartphone esthétique et très robuste.",POSITIVE,,
-"Problème dès trois semaines, le montre connectée surchauffe vite sans raison.",NEGATIVE,,
+"Problème dès trois semaines, le montre connectée surchauffe vite sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, casque audio conforme aux attentes et réactif.",POSITIVE,avis positif très court,
 "Emballage abîmé et smartphone cassé, déception totale.",NEGATIVE,,
 "Très bonne marque, ce robot de cuisine est ergonomique et rapide.",POSITIVE,avis positif très court,
-"Je ne recommande pas ce logiciel, la pièce principale est manquante.",NEGATIVE,vocabulaire trompeur,
+"Je ne recommande pas ce logiciel, la pièce principale est manquante.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Achat parfait ! Le aspirateur réponde en tout point à mes attentes.,POSITIVE,,
-"Très déçu par l'interface, le meuble est arrivé inutilisable.",NEGATIVE,,
+"Très déçu par l'interface, le meuble est arrivé inutilisable.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce ordinateur portable est ergonomique et rapide.",POSITIVE,négation,
 "Article de mauvaise qualité, la connectique est défaillante après 48 heures.",NEGATIVE,négation,
 "Très bonne marque, ce smartphone est ergonomique et efficace.",POSITIVE,négation,
 Je demande un remboursement car le ordinateur portable est tombé en panne au bout de 48 heures.,NEGATIVE,vocabulaire trompeur,
 "Très bonne marque, ce casque audio est ergonomique et robuste.",POSITIVE,négation,
-"Je ne recommande pas ce support ventilé, les dimensions ne correspondent pas.",NEGATIVE,négation,
+"Je ne recommande pas ce support ventilé, les dimensions ne correspondent pas.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce vêtement, agréablement surpris !",POSITIVE,,
-"Livraison catastrophique, le support ventilé est abîmé.",NEGATIVE,ironie,
+"Livraison catastrophique, le support ventilé est abîmé.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, logiciel esthétique et très robuste.",POSITIVE,avis mitigé,
-"Je ne recommande pas ce meuble, la batterie ne tient pas.",NEGATIVE,ironie,
+"Je ne recommande pas ce meuble, la batterie ne tient pas.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce sac à dos est ergonomique et efficace.",POSITIVE,avis positif très court,
-"Très déçu par la qualité globale, le smartphone est arrivé incomplet.",NEGATIVE,,
-"Utilisation simple au quotidien, installation remarquable.",POSITIVE,,
+"Très déçu par la qualité globale, le smartphone est arrivé incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Utilisation simple au quotidien, installation remarquable.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Emballage abîmé et chargeur défectueux, déception totale.",NEGATIVE,,
-Commande reçue rapidement et aspirateur réactif.,POSITIVE,,
-"Très déçu par l'assistance technique, le sac à dos est arrivé abîmé.",NEGATIVE,ironie,
+Commande reçue rapidement et aspirateur réactif.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Très déçu par l'assistance technique, le sac à dos est arrivé abîmé.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Excellente expérience avec le SAV, je recommande chaleureusement !",POSITIVE,,
 "Emballage abîmé et smartphone défectueux, déception totale.",NEGATIVE,vocabulaire trompeur,
-Commande reçue rapidement et vêtement conforme.,POSITIVE,avis mitigé,
-"Je ne recommande pas ce écran, la batterie ne tient pas.",NEGATIVE,négation,
+Commande reçue rapidement et vêtement conforme.,POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce écran, la batterie ne tient pas.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très satisfait de la commande, le meuble fonctionne sans problème.",POSITIVE,avis positif très court,
 "Emballage abîmé et vêtement défectueux, déception totale.",NEGATIVE,vocabulaire trompeur,
 "Aspirateur de très bonne qualité, livraison fluide.",POSITIVE,,
-"Je ne recommande pas ce livre, les dimensions ne correspondent pas.",NEGATIVE,ironie,
+"Je ne recommande pas ce livre, les dimensions ne correspondent pas.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, smartphone conforme aux attentes et de grande qualité.",POSITIVE,,
-"Livraison catastrophique, le ordinateur portable est abîmé.",NEGATIVE,,
+"Livraison catastrophique, le ordinateur portable est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, meuble esthétique et très fluide.",POSITIVE,,
 Je demande un remboursement car le smartphone est tombé en panne au bout de 48 heures.,NEGATIVE,,
-Commande reçue rapidement et robot de cuisine réactif.,POSITIVE,,
+Commande reçue rapidement et robot de cuisine réactif.,POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Emballage abîmé et chargeur inutilisable, déception totale.",NEGATIVE,ironie,
 "Livre de très bonne qualité, livraison fluide.",POSITIVE,avis positif très court,
-"Très déçu par la qualité globale, le câble USB-C est arrivé abîmé.",NEGATIVE,négation,
-"Utilisation silencieux au quotidien, installation remarquable.",POSITIVE,,
-"Je ne recommande pas ce appareil photo, le colis était vide.",NEGATIVE,ironie,
+"Très déçu par la qualité globale, le câble USB-C est arrivé abîmé.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Utilisation silencieux au quotidien, installation remarquable.",POSITIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Je ne recommande pas ce appareil photo, le colis était vide.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de sac à dos, c'est impeccable.",POSITIVE,,
-"Très déçu par l'interface, le smartphone est arrivé catastrophique.",NEGATIVE,ironie,
+"Très déçu par l'interface, le smartphone est arrivé catastrophique.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Un service client soigné et rapide, merci beaucoup.",POSITIVE,négation,
-"Problème dès une seule utilisation, le montre connectée grésille sans arrêt sans raison.",NEGATIVE,vocabulaire trompeur,
+"Problème dès une seule utilisation, le montre connectée grésille sans arrêt sans raison.",NEGATIVE,vocabulaire trompeur,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, câble USB-C conforme aux attentes et remarquable.",POSITIVE,négation,
-"Problème dès une seule utilisation, le appareil photo surchauffe vite sans raison.",NEGATIVE,,
+"Problème dès une seule utilisation, le appareil photo surchauffe vite sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Super rapport qualité-prix pour ce robot de cuisine, parfaitement surpris !",POSITIVE,avis positif très court,
 "Qualité médiocre pour le prix, le robot de cuisine fait un bruit anormal.",NEGATIVE,vocabulaire trompeur,
 "Très satisfait de le suivi de colis, le appareil photo fonctionne parfaitement.",POSITIVE,,
 "Belle présentation sur le site, mais en réalité le montre connectée est inutilisable.",NEGATIVE,négation,
 "Très satisfait de le SAV, le aspirateur fonctionne superbement.",POSITIVE,négation,
-"Livraison catastrophique, le casque audio est inutilisable.",NEGATIVE,négation,
+"Livraison catastrophique, le casque audio est inutilisable.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Livraison avec un léger retard, mais le vêtement est réactif.",POSITIVE,avis positif très court,
-"Livraison catastrophique, le sac à dos est abîmé.",NEGATIVE,,
+"Livraison catastrophique, le sac à dos est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, ordinateur portable esthétique et très efficace.",POSITIVE,négation,
 "Très déçu par l'interface, le livre est arrivé cassé.",NEGATIVE,,
 "Un service client impeccable et simple, merci beaucoup.",POSITIVE,négation,
-"Je ne recommande pas ce chargeur, la batterie ne tient pas.",NEGATIVE,,
+"Je ne recommande pas ce chargeur, la batterie ne tient pas.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce montre connectée est ergonomique et robuste.",POSITIVE,avis positif très court,
-"Problème dès trois semaines, le meuble ne s'allume plus sans raison.",NEGATIVE,,
+"Problème dès trois semaines, le meuble ne s'allume plus sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Rien à redire, robot de cuisine conforme aux attentes et conforme.",POSITIVE,,
-"Problème dès 48 heures, le support ventilé ne s'allume plus sans raison.",NEGATIVE,,
+"Problème dès 48 heures, le support ventilé ne s'allume plus sans raison.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de vêtement, c'est de grande qualité.",POSITIVE,avis positif très court,
 "Belle présentation sur le site, mais en réalité le ordinateur portable est incomplet.",NEGATIVE,,
 "Livraison avec deux jours de plus, mais le écouteurs est soigné.",POSITIVE,,
-"Je ne recommande pas ce écouteurs, le système bugue constamment.",NEGATIVE,,
+"Je ne recommande pas ce écouteurs, le système bugue constamment.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Interface fluide, clavier esthétique et très efficace.",POSITIVE,négation,
 "Emballage abîmé et aspirateur catastrophique, déception totale.",NEGATIVE,,
-Commande reçue rapidement et ordinateur portable de grande qualité.,POSITIVE,avis mitigé,
+Commande reçue rapidement et ordinateur portable de grande qualité.,POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Problème dès deux jours, le appareil photo grésille sans arrêt sans raison.",NEGATIVE,,
 "Très satisfait de le suivi de colis, le câble USB-C fonctionne très bien.",POSITIVE,,
 Je demande un remboursement car le montre connectée est tombé en panne au bout de deux jours.,NEGATIVE,,
-Commande reçue rapidement et meuble remarquable.,POSITIVE,avis mitigé,
+Commande reçue rapidement et meuble remarquable.,POSITIVE,avis mitigé,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Belle présentation sur le site, mais en réalité le casque audio est incomplet.",NEGATIVE,,
 "Livraison avec deux jours de plus, mais le vêtement est réactif.",POSITIVE,,
 "Très déçu par le suivi de colis, le ordinateur portable est arrivé abîmé.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de ordinateur portable, c'est soigné.",POSITIVE,avis positif très court,
-"Très déçu par l'interface, le sac à dos est arrivé incomplet.",NEGATIVE,,
+"Très déçu par l'interface, le sac à dos est arrivé incomplet.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce casque audio est ergonomique et silencieux.",POSITIVE,négation,
-"Livraison catastrophique, le écouteurs est abîmé.",NEGATIVE,,
+"Livraison catastrophique, le écouteurs est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Un service client conforme et agréable, merci beaucoup.",POSITIVE,avis mitigé,
 "Article de mauvaise qualité, la batterie ne tient pas après quelques heures.",NEGATIVE,,
 "Clavier de très bonne qualité, livraison intuitif.",POSITIVE,,
 "Service client incomplet, aucune réponse malgré plusieurs appels.",NEGATIVE,,
 "Je ne regrette absolument pas cet achat de smartphone, c'est de grande qualité.",POSITIVE,avis positif très court,
-"Livraison catastrophique, le câble USB-C est abîmé.",NEGATIVE,,
+"Livraison catastrophique, le câble USB-C est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Je ne regrette absolument pas cet achat de support ventilé, c'est impeccable.",POSITIVE,avis positif très court,
 Attente de trois semaines pour recevoir un chargeur totalement défectueux.,NEGATIVE,,
-"Utilisation rapide au quotidien, installation remarquable.",POSITIVE,négation,
-"Livraison catastrophique, le logiciel est abîmé.",NEGATIVE,,
+"Utilisation rapide au quotidien, installation remarquable.",POSITIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
+"Livraison catastrophique, le logiciel est abîmé.",NEGATIVE,,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 Commande reçue rapidement et écouteurs impeccable.,POSITIVE,,
-"Livraison catastrophique, le vêtement est défectueux.",NEGATIVE,ironie,
+"Livraison catastrophique, le vêtement est défectueux.",NEGATIVE,ironie,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Vêtement de très bonne qualité, livraison efficace.",POSITIVE,,
 Attente de trois semaines pour recevoir un ordinateur portable totalement inutilisable.,NEGATIVE,ironie,
 "Super rapport qualité-prix pour ce montre connectée, superbement surpris !",POSITIVE,,
 "Service client cassé, aucune réponse malgré trois relances.",NEGATIVE,négation,
 "Super rapport qualité-prix pour ce aspirateur, agréablement surpris !",POSITIVE,,
-"Je ne recommande pas ce aspirateur, la notice est illisible.",NEGATIVE,négation,
+"Je ne recommande pas ce aspirateur, la notice est illisible.",NEGATIVE,négation,Erreur franche observée par la CI TP6 : le modèle de démonstration prédit la classe opposée.
 "Très bonne marque, ce meuble est ergonomique et rapide.",POSITIVE,avis mitigé,
