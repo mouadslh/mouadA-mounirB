@@ -4,7 +4,7 @@
 
 | | Membre A | Membre B |
 | --- | --- | --- |
-| Nom | mouad salah | med mounir elhamss |
+| Nom | Mouad Salah | Elhamss Med Mounir |
 | Compte GitHub | @mouadslh | @mounir-med |
 
 **Dépôt** : https://github.com/mouadslh/mouadA-mounirB.git
