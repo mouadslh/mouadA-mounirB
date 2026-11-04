@@ -32,7 +32,7 @@ python scripts/check_setup.py    # diagnostic lisible : versions, dossiers, Git,
 pytest -q                        # les mêmes vérifications, sous forme de tests
 ```
 
-**Au premier lancement, `pytest` affiche `3 failed, 31 passed, 4 skipped` : c'est normal.** Les trois échecs sont les fiches de cadrage encore vides, les quatre tests ignorés attendent que le dépôt Git existe. En fin de TP, la même commande affiche `38 passed`.
+Les résultats attendus de pytest évoluent au fil des TP. Consultez le journal de séance et l’énoncé correspondant ; la suite complète inclut les tests d’intégration et de packaging du TP6.
 
 Les scripts `scripts/setup.sh` (Linux, macOS, Git Bash) et `scripts/setup.ps1` (Windows) font l'installation et le diagnostic en une commande.
 
@@ -42,6 +42,8 @@ Les scripts `scripts/setup.sh` (Linux, macOS, Git Bash) et `scripts/setup.ps1` (
 | --- | --- |
 | `MARCHE-A-SUIVRE.md` | Pendant la séance : huit étapes, huit contrôles, les résultats attendus |
 | `TP1-ENONCE.md` | L'énoncé du TP : objectifs, livrables, grille de notation |
+| `TP6-ENONCE.md`, `MARCHE-A-SUIVRE-TP6.md` | L'énoncé et le guide pratique du paquet installable |
+| `docs/journal-tp1-tp6.md` | Résultats observés et journal du binôme |
 | `TESTS.md` | La démarche de test en détail, et les trois états de référence |
 | `AIDE-GIT.md` | Les commandes Git du TP et la résolution d'un conflit |
 | `DEPANNAGE.md` | Quand quelque chose échoue |
@@ -55,7 +57,7 @@ Sous Linux, macOS et Git Bash, un `Makefile` évite de retaper les commandes :
 ```bash
 make setup          # venv, dépendances, diagnostic
 make check          # diagnostic seul
-make test           # les 38 tests
+make test           # la suite de tests du dépôt
 make test-cadrage   # les 12 tests des fiches
 make verif URL=https://github.com/<organisation>/sentiment-app.git
 make exemple-ml     # entraîne le modèle d'exemple (facultatif)
@@ -66,7 +68,7 @@ make help           # la liste complète
 
 ```text
 sentiment-app/
-├── README.md, MARCHE-A-SUIVRE*.md, TP1-ENONCE.md ... TP5-ENONCE.md
+├── README.md, guides et énoncés des TP1 à TP6
 ├── CHANGELOG.md         # versions 0.1.0 à 0.6.0
 ├── Makefile              # raccourcis (optionnel)
 ├── requirements.txt      # dépendances du semestre, versions figées
@@ -77,7 +79,7 @@ sentiment-app/
 ├── api/                  # API FastAPI (semaine 3)
 ├── ui/                   # interface Streamlit (semaine 5)
 ├── sentiment_app/        # paquet installable et commande sentiment (TP6)
-├── tests/                # pytest : 23 + 12 + 3 = 38 tests en semaine 1
+├── tests/                # tests pytest des TP1 à TP6
 ├── scripts/              # setup, diagnostic, création de fiche, init du dépôt, clone de vérification
 ├── notebooks/            # variante Colab du TP1
 └── docs/cadrage/         # fiches de cadrage, exemple corrigé, grille, banque de cas
