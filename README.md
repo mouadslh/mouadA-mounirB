@@ -44,6 +44,7 @@ Les scripts `scripts/setup.sh` (Linux, macOS, Git Bash) et `scripts/setup.ps1` (
 | `TP1-ENONCE.md` | L'énoncé du TP : objectifs, livrables, grille de notation |
 | `TP6-ENONCE.md`, `MARCHE-A-SUIVRE-TP6.md` | L'énoncé et le guide pratique du paquet installable |
 | `docs/journal-tp1-tp6.md` | Résultats observés et journal du binôme |
+| `docs/tester-la-commande-sentiment.md` | Tester manuellement ou automatiquement la commande du TP6 |
 | `TESTS.md` | La démarche de test en détail, et les trois états de référence |
 | `AIDE-GIT.md` | Les commandes Git du TP et la résolution d'un conflit |
 | `DEPANNAGE.md` | Quand quelque chose échoue |
