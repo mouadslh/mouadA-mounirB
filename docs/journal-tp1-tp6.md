@@ -1046,3 +1046,18 @@ La version déclarée est `0.6.0`; le modèle et scikit-learn sont bornés à la
 ### T41 : intégration continue et étiquette
 
 La CI construit la roue, l'installe dans un environnement temporaire et lance la prédiction avec le modèle entraîné par la CI. La version livrée porte l'étiquette annotée `v0.6.0`; la CI de cette version est verte. Les captures de la page GitHub Actions ne sont pas archivées dans le dépôt.
+
+### Vérification locale complémentaire, 04/11/2026
+
+Après récupération de la branche `main`, les contrôles ont été relancés sur le poste de reprise :
+
+```text
+pytest : 875 passed, 214 xfailed
+Couverture API : 97,83 % (seuil requis : 95 %)
+ruff check . : réussi
+mypy api : réussi
+python -m build --wheel : roue sentiment_app-0.6.0-py3-none-any.whl construite
+scripts/check_wheel.py : roue valide; paquets api, sentiment_app, ui
+```
+
+La dernière exécution CI de `main` (`546999f`) est réussie : https://github.com/mouadslh/mouadA-mounirB/actions/runs/40700394384.
